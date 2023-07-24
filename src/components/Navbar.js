@@ -5,7 +5,10 @@ function Navbar() {
     <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">Gurkha</a>
+  <a class="navbar-brand" href="#">
+      <img src="/favicon-32x32.png" alt="Logo" width="35" height="30" class="d-inline-block align-text-top mx-2"/>
+      Gurkha
+    </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
