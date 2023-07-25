@@ -1,0 +1,18 @@
+{
+  "interndetails": [
+    {
+      "id": 1,
+      "name": "Jayandra Thapa",
+      "category": "Frontend",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Niroj Lama",
+      "category": "Flutter",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/2.png"
+    }
+  ]
+}
