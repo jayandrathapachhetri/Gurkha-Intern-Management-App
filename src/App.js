@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar search={false}/>
       {/* <h2>Gurkha Intern Management App</h2> */}
-      <Intern/>
+      <Intern />
     </div>
   );
 }
