@@ -42,7 +42,7 @@ const InternInfo = () => {
               <h5>Role is : {empdata.role}</h5>
               <h5>Joining Date is : {empdata.startofdate}</h5>
               <h5>Leaving Date is : {empdata.endofdate}</h5>
-              <Link className="btn btn-danger" to="/">
+              <Link className="btn btn-danger" to="/internlist">
                 Back to Listing
               </Link>
             </div>
