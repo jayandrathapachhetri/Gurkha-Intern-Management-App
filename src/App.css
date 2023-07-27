@@ -43,3 +43,12 @@
     width: 150px;
     border-radius: 50%;
 }
+
+
+.btn{
+  margin: 2px;;
+}
+
+.divbtn{
+  float: left;
+}
