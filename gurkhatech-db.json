@@ -5,28 +5,133 @@
       "name": "Jayandra Thapa",
       "category": "Frontend",
       "description": "Hello, It’s me Jayandra Thapa. I'm a passionate frontend developer with a strong foundation in HTML, CSS, and JavaScript. I have completed several personal projects where I enhanced my skills in creating responsive and user-friendly websites. I'm excited about this internship opportunity because it will allow me to apply my knowledge in a professional setting and further develop my skills under the guidance of experienced mentors.",
-      "image": "Images/1.jpg"
+      "image": "Images/Jayandra.jpg"
     },
     {
       "id": 2,
       "name": "Niroj Lama",
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/2.png"
+      "image": "Images/niroj.jpg"
     },
     {
-      "id": 2,
-      "name": "Niroj Lama",
-      "category": "Flutter",
+      "id": 3,
+      "name": "Asmit Adhikari",
+      "category": "Blockchain",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/2.png"
+      "image": "Images/Asmit.jpg"
     },
     {
-      "id": 2,
-      "name": "Niroj Lama",
+      "id": 4,
+      "name": "Sushil Pathak",
+      "category": "Backend",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Sushil.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Saroj Adhikari",
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/2.png"
+      "image": "Images/2.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ravi Lamichhane",
+      "category": "Frontend",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Binod Rawat",
+      "category": "QA",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Binod.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Ujjwal Shresthe",
+      "category": "Blockchain",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/4.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Shree Krishna Lamichhane",
+      "category": "WordPress",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/ShreeKrishna.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sita Thapa",
+      "category": "Blockchain",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Krishor Neupane",
+      "category": "QA",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Kishor.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Shree Bhadra Bhattarai",
+      "category": "Backend",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/ShreeBhadra.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Mohon Rawat",
+      "category": "WordPress",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Mohan.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Samundra Adhikari",
+      "category": "QA",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Samundra.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Maharzon Samrat",
+      "category": "Flutter",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Samrat.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Narendra Magar",
+      "category": "WordPress",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Narendra.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Kumosh Poudel",
+      "category": "QA",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Kumosh.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Abhishek Manander",
+      "category": "FullStack",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Abhishek.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Hemraj Budhathoki",
+      "category": "QA",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
+      "image": "Images/Hemraj.jpg"
     }
   ]
 }

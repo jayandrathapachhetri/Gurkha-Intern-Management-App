@@ -88,11 +88,11 @@ function Intern() {
         let data = await response.json();
         console.log(data);
         setInterndetails(data);
-        setOriginalData(data); // Store the original data
+        setOriginalData(data); 
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
-        setLoading(false); // Set loading to false even on error
+        setLoading(false); 
       }
     };
 
@@ -101,10 +101,8 @@ function Intern() {
 
   const filterItem = (roleItem) => {
     if (roleItem === "All") {
-      // If "All" is selected, show all items from the original data
       setInterndetails(originalData);
     } else {
-      // Filter the items based on the selected roleItem
       const updatedItems = originalData.filter((curElem) => {
         return curElem.category === roleItem;
       });
@@ -114,13 +112,16 @@ function Intern() {
 
   return (
     <>
-       <div className="container justify-content-center bg-secondary rounded my-2">
-        <button className="btn btn-sm btn-primary mx-3 my-1 " onClick={() => filterItem('Frontend')}>Frontend</button>
-        <button className="btn btn-sm btn-primary mx-3 my-1" onClick={() => filterItem('Backend')}>Backend</button>
-        <button className="btn btn-sm btn-primary mx-3 my-1" onClick={() => filterItem('QA')}>QA</button>
-        <button className="btn btn-sm btn-primary mx-3 my-1" onClick={() => filterItem('Flutter')}>Flutter</button>
-        <button className="btn btn-sm btn-primary mx-3 my-1" onClick={() => filterItem('All')}>All</button>
-      </div>
+        <div className=" container d-flex flex-wrap bg-secondary rounded my-2">
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="frontend" onClick={() => filterItem('Frontend')}>Frontend</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="backend" onClick={() => filterItem('Backend')}>Backend</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="fullStack" onClick={() => filterItem('FullStack')}>FullStack</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="qa" onClick={() => filterItem('QA')}>QA</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="flutter" onClick={() => filterItem('Flutter')}>Flutter</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="wordpress" onClick={() => filterItem('WordPress')}>WordPress</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1" key="blockchain" onClick={() => filterItem('Blockchain')}>Blockchain</button>
+          <button className="btn btn-sm btn-primary mx-3 my-1 ms-auto" key="all" onClick={() => filterItem('All')}>All</button>
+        </div>
       
       <div className="container my-3">
         {loading ? (
