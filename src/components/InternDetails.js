@@ -24,6 +24,21 @@ function InternDetails({ name, category, description, image }) {
                 alignItems: "center",
               }}
             />
+            {/* <img
+  className="bd-placeholder-img rounded-circle"
+  width={200}
+  height={200}
+  src={image}
+  role="img"
+  aria-label="Placeholder"
+  preserveAspectRatio="xMidYMid slice"
+  focusable="false"
+/> */}
+
+
+             {/* <div className="col-auto d-none d-lg-block">
+            <img src="{image}" className=" card-img-center image-fluid mt-2 rounded-circle bd-placeholder-img width:'200' height='250'"  alt="" />
+            </div> */}
             <div className="card-body">
               <h4 className="card-title text-centre">{category}</h4>
               <h6 className="text-start ">{name}</h6>

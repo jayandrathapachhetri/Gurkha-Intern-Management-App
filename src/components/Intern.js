@@ -79,6 +79,7 @@ function Intern() {
   const [loading, setLoading] = useState(true);
   const [originalData, setOriginalData] = useState([]);
 
+
   useEffect(() => {
     const fetchData = async () => {
       try {

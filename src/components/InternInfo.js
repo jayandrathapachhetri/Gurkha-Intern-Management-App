@@ -7,7 +7,7 @@ const InternInfo = () => {
   const [empdata, empdatachange] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:3000/intern/" +empid)
+    fetch("http://localhost:3000/intern/" + empid)
       .then((res) => {
         return res.json();
       })
@@ -21,37 +21,64 @@ const InternInfo = () => {
   }, [empid]);
 
   return (
-    <div className="mt-2">
-      <div className="container">
-        <div className="card row" style={{ textAlign: "left" }}>
-          <div className="card-title">
-            <h2>Intern Information</h2>
-          </div>
-          <div className="card-body"></div>
-
-          {empdata && (
-            <div>
-              <h2>
-                The Intern name is : <b>{empdata.name}</b> (id : {empdata.id})
-              </h2>
-              <h3>Contact Details</h3>
-              <h5>Email is : {empdata.email}</h5>
-              <h5>Phone is : {empdata.phone}</h5>
-              <h5>College is : {empdata.college}</h5>
-              <h5>Address is : {empdata.address}</h5>
-              <h5>Role is : {empdata.role}</h5>
-              <h5>Joining Date is : {empdata.startofdate}</h5>
-              <h5>Leaving Date is : {empdata.endofdate}</h5>
-              <Link className="btn btn-danger" to="/internlist">
-                Back to Listing
-              </Link>
-            </div>
-          )}
+    <div className="container mt-3 text-start">
+      <div className="card">
+        <div className="card-title text-center">
+          <h2>Intern Information</h2>
+        </div>
+        <div className="card-body">
+          <table className="table table-bordered">
+            <thead className="bg-dark text-white">
+              <tr>
+                <th>Information</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>ID</th>
+                <td>{empdata.id}</td>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <td>{empdata.name}</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>{empdata.email}</td>
+              </tr>
+              <tr>
+                <th>Phone</th>
+                <td>{empdata.phone}</td>
+              </tr>
+              <tr>
+                <th>College</th>
+                <td>{empdata.college}</td>
+              </tr>
+              <tr>
+                <th>Address</th>
+                <td>{empdata.address}</td>
+              </tr>
+              <tr>
+                <th>Role</th>
+                <td>{empdata.role}</td>
+              </tr>
+              <tr>
+                <th>Joining Date</th>
+                <td>{empdata.startofdate}</td>
+              </tr>
+              <tr>
+                <th>Leaving Date</th>
+                <td>{empdata.endofdate}</td>
+              </tr>
+            </tbody>
+          </table>
+          <Link className="btn btn-danger" to="/internlist">
+            Back to Listing
+          </Link>
         </div>
       </div>
-    </div> 
+    </div>
   );
-}
+};
 export default InternInfo;
-
-

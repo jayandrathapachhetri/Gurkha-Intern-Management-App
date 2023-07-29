@@ -1,0 +1,72 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "email": "jay@test.com",
+      "password": "jay@123"
+    },
+    {
+      "email": "ram@dgdg",
+      "password": "ejdjd",
+      "id": 2
+    },
+    {
+      "email": "durga@gmail.con",
+      "password": "durga@123",
+      "id": 3
+    },
+    {
+      "email": "gdt@hdhd",
+      "password": "dd",
+      "id": 4
+    },
+    {
+      "email": "hu@fggf",
+      "password": "dhhdh",
+      "id": 5
+    },
+    {
+      "email": "jdhhd@gaijdjdjl",
+      "password": "nhhhd",
+      "id": 6
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "email": "jay@test.com",
+      "password": "jay@123",
+      "confirmpassword": "jay@123"
+    },
+    {
+      "email": "dd",
+      "password": "d",
+      "confirmpassword": "d",
+      "id": 2
+    },
+    {
+      "email": "dd@gmial",
+      "password": "d",
+      "confirmpassword": "d",
+      "id": 3
+    },
+    {
+      "email": "aa",
+      "password": "dd",
+      "confirmpassword": "ss",
+      "id": 4
+    },
+    {
+      "email": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 5
+    },
+    {
+      "email": "",
+      "password": "",
+      "confirmpassword": "",
+      "id": 6
+    }
+  ]
+}
