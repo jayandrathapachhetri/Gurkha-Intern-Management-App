@@ -1,12 +1,21 @@
-import React, {useState} from 'react';
-import Modal from 'react-bootstrap/Modal';
-// import { useNavigate} from "react-router-dom";
+import React, {useState, useEffect} from 'react';
 
-function LogIn({ show, handleClose }) {
+import Navbar from './Navbar';
+ 
+import { useNavigate} from "react-router-dom";
+
+function LogIn() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (localStorage.getItem("user-info")) {
+      navigate("/");
+    }
+  }, [navigate]);
 
   async function login() {
     console.log('data', email, password);
@@ -23,17 +32,19 @@ function LogIn({ show, handleClose }) {
     result = await result.json();
       console.log("result",result)
     localStorage.setItem("user-info", JSON.stringify(result));
-    // navigate("/");
+    navigate("/");
   }
 
+  
+
   return (
-    <>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Gurkha</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-        <form>
+    <> <Navbar/>
+      <div className="d-flex justify-content-center align-items-center vh-100 signupPage">
+        <div className="p-3 rounded w-25 border signupForm">
+          <h2>
+            <strong>Gurkha Intern</strong>
+          </h2>
+          <form className='text-start'>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">Email address</label>
               <input
@@ -68,19 +79,17 @@ function LogIn({ show, handleClose }) {
                 Check me out
               </label>
             </div>
-            <button type="submit" className="btn btn-primary" onClick={login} >
+            <button 
+              type="submit" className="btn btn-primary" onClick={login} >
               Login
             </button>
           </form>
-        </Modal.Body>
-        {/* <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer> */}
-      </Modal>
+        </div>
+      </div>
     </>
   )
 }
 
 export default LogIn;
+
+

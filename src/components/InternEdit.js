@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-
+import Navbar from './Navbar';
+ 
 const InternEdit = () => {
   const { empid } = useParams();
 
@@ -59,6 +60,7 @@ const InternEdit = () => {
       });
   };
   return (
+    <><Navbar/>
     <div className="mt-2">
       <div className="row">
         <div className="offset-lg-3 col-lg-6">
@@ -210,6 +212,7 @@ const InternEdit = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

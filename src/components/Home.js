@@ -1,10 +1,17 @@
 import React from 'react'
+import Navbar from './Navbar';
+ 
 
 function Home() {
+
   return (
-    <div>
-      <h2>Home</h2>
+    <>
+    <Navbar/>
+    <div className="container-fluid d-flex justify-content-center align-items-center vh-100">
+      <img src="Images/Home.jpg" alt="Home" className="img-fluid" />
     </div>
+    </>
+    
   )
 }
 

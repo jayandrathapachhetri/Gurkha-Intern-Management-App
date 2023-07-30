@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+ 
 function InternDetails({ name, category, description, image }) {
   // let {name, category, description, image} : props;
   const [showFullDescription, setShowFullDescription] = useState(false);
@@ -9,6 +9,7 @@ function InternDetails({ name, category, description, image }) {
   };
 
   return (
+    <>
     <div class="container">
       <div class="row">
         <div col-md-4>
@@ -61,6 +62,7 @@ function InternDetails({ name, category, description, image }) {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Navbar from './Navbar';
+
 // import './App.css';
 
 const InternCreate = () => {
@@ -47,6 +49,7 @@ const InternCreate = () => {
   };
 
   return (
+    <> <Navbar/>
     <div className="mt-2">
       <div className="row">
         <div className="offset-lg-3 col-lg-6">
@@ -199,6 +202,7 @@ const InternCreate = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

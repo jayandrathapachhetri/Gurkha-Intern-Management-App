@@ -37,29 +37,35 @@
   }
 }
 
-
-.img{
+.img {
   height: 150px;
-    width: 150px;
-    border-radius: 50%;
+  width: 150px;
+  border-radius: 50%;
 }
 
-
-.btn{
-  margin: 2px;;
+.btn {
+  margin: 2px;
 }
 
-.divbtn{
+.divbtn {
   float: left;
 }
 
-.nav{ background: darkcyan; }
+.nav {
+  background: darkcyan;
+}
 
-.nav-link{ color:#fff;}
+.nav-link {
+  color: #fff;
+  background: red;
+}
 
 .nav-link:hover,
-.nav-link.active{
-    color:#fff;
-    background:sandybrown;
-    border-radius: 5px;
+.nav-link.active {
+  color: #fff;
+  background: sandybrown;
+  border-radius: 5px;
 }
+
+
+

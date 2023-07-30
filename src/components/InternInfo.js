@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-
+import Navbar from './Navbar';
+ 
 const InternInfo = () => {
   const { empid } = useParams();
   // empty object
@@ -21,6 +22,7 @@ const InternInfo = () => {
   }, [empid]);
 
   return (
+    <><Navbar/>
     <div className="container mt-3 text-start">
       <div className="card">
         <div className="card-title text-center">
@@ -79,6 +81,7 @@ const InternInfo = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default InternInfo;

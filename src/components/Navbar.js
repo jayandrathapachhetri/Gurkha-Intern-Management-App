@@ -1,30 +1,18 @@
-import React, { useState } from 'react';
-// import { Link } from 'react-router-dom'
-import {Button} from 'react-bootstrap';
-// import LogIn from './LogIn';
-import Register from './Register';
-import LogIn from './LogIn'
-// import SignUp from './SignUp'
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom'
+import { Nav, NavDropdown } from "react-bootstrap";
 
-function Navbar(props) {
-  const [showRegister, setShowRegister] = useState(false);
-  const [showLogin, setShowLogin] = useState(false);
+function Navbar() {
+  const user = JSON.parse(localStorage.getItem("user-info"));
+  console.warn(user);
 
-  function handleShowRegister() {
-    setShowRegister(true);
+  const navigate = useNavigate();
+  function logout() {
+    localStorage.removeItem('user-info');
+    // localStorage.clear();
+    navigate("/login");
   }
 
-  function handleCloseRegister() {
-    setShowRegister(false);
-  }
-
-  function handleShowLogin() {
-    setShowLogin(true);
-  }
-
-  function handleCloseLogin() {
-    setShowLogin(false);
-  }
 
   return (
     <>
@@ -39,6 +27,8 @@ function Navbar(props) {
     </button>
     <div className="collapse navbar-collapse text-start" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      {localStorage.getItem("user-info") ? (
+          <>
         <li className="nav-item">
           <a className="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -48,20 +38,30 @@ function Navbar(props) {
         <li className="nav-item">
           <a className="nav-link" href="/internlist">Intern DashBoard</a>
         </li>
+        </>) : (<>
+        <li className="nav-item">
+        <Link  className="nav-link mx-1" to="/register" >Register</Link>
+        </li>
+        <li className="nav-item">
+        <Link className="nav-link mx-1" to="/login" >Log in</Link>
+        </li>
+        </>)}
       </ul>
-      {props.search?  <form className="d-flex" role="search">
+      {/* <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-success" type="submit">Search</button>
-      </form> : ""}
-      <div >
-            <Button variant="primary" onClick={handleShowRegister}>Register</Button>
-            <Button className='mx-1' variant="primary" onClick={handleShowLogin}>Log in</Button>
-        </div>
+      </form> */}
     </div>
   </div>
+  {localStorage.getItem("user-info")  ? (
+          <Nav>
+            <NavDropdown title={user && user.name} style={{marginRight:'90px'}}>
+              <NavDropdown.Item onClick={logout}>logout</NavDropdown.Item>
+              <NavDropdown.Item>Profile</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+         ) : null} 
 </nav>
-      {showRegister && <Register show={showRegister} handleClose={handleCloseRegister} />}
-      {showLogin && <LogIn show={showLogin} handleClose={handleCloseLogin} />}
     </>
   )
 }

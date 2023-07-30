@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate} from "react-router-dom";
 // import "./App.css";
+import Navbar from './Navbar';
+
 
 const InternListing = () => {
   const [empdata, empdatachange] = useState([]);
@@ -44,6 +46,7 @@ const InternListing = () => {
       });
   }, []);
   return (
+    <> <Navbar/>
     <div className="container mt-3">
       <div className="card">
         <div className="card-title">
@@ -113,6 +116,7 @@ const InternListing = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

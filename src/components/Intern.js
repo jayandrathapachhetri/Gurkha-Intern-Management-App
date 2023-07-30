@@ -72,6 +72,9 @@
 import React, { useState, useEffect } from 'react';
 import InternDetails from './InternDetails';
 import Spinner from './Spinner';
+import Navbar from './Navbar';
+ 
+
 // import { Link } from 'react-router-dom';
 
 function Intern() {
@@ -113,6 +116,7 @@ function Intern() {
 
   return (
     <>
+    <Navbar/>
         <div className=" container d-flex flex-wrap bg-secondary rounded my-2">
           <button className="btn btn-sm btn-primary mx-3 my-1" key="frontend" onClick={() => filterItem('Frontend')}>Frontend</button>
           <button className="btn btn-sm btn-primary mx-3 my-1" key="backend" onClick={() => filterItem('Backend')}>Backend</button>
