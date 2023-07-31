@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom'
-import { Nav, NavDropdown } from "react-bootstrap";
+import {  NavDropdown } from "react-bootstrap";
 
 function Navbar() {
   const user = JSON.parse(localStorage.getItem("user-info"));
@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor:'#e3f2fd'}}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{backgroundColor:'#e3f2fd'}}>
   <div className="container-fluid">
   <a class="navbar-brand" href="#">
       <img src="/favicon-32x32.png" alt="Logo" width="35" height="30" className="d-inline-block align-text-top mx-2"/>
@@ -30,18 +30,21 @@ function Navbar() {
       {localStorage.getItem("user-info") ? (
           <>
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="/">Home</a>
+          <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/interndetails">Intern Details</a>
         </li>
         <li className="nav-item">
+          <a className="nav-link" href="/About">About</a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link" href="/internlist">Intern DashBoard</a>
         </li>
         </>) : (<>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <Link  className="nav-link mx-1" to="/register" >Register</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
         <Link className="nav-link mx-1" to="/login" >Log in</Link>
         </li>
@@ -54,12 +57,15 @@ function Navbar() {
     </div>
   </div>
   {localStorage.getItem("user-info")  ? (
-          <Nav>
-            <NavDropdown title={user && user.name} style={{marginRight:'90px'}}>
+          // <Nav>
+            <NavDropdown title={user && user.name} style={{ 
+            backgroundColor: "gray",
+            // border: "1px solid black",
+            borderRadius: "5px"}}>
               <NavDropdown.Item onClick={logout}>logout</NavDropdown.Item>
               <NavDropdown.Item>Profile</NavDropdown.Item>
             </NavDropdown>
-          </Nav>
+          // </Nav>
          ) : null} 
 </nav>
     </>
