@@ -16,7 +16,8 @@ function Navbar() {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{backgroundColor:'#e3f2fd'}}>
+    <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light nav-pills" style={{backgroundColor:'#e3f2fd'}}>
   <div className="container-fluid">
   <a class="navbar-brand" href="#">
       <img src="/favicon-32x32.png" alt="Logo" width="35" height="30" className="d-inline-block align-text-top mx-2"/>
@@ -30,13 +31,13 @@ function Navbar() {
       {localStorage.getItem("user-info") ? (
           <>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/interndetails">Intern Details</a>
+          <a className="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/About">About</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="/interndetails">Intern Details</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/internlist">Intern DashBoard</a>
@@ -68,6 +69,7 @@ function Navbar() {
           // </Nav>
          ) : null} 
 </nav>
+</div>
     </>
   )
 }

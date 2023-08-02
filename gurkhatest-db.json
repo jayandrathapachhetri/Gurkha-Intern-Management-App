@@ -1,5 +1,5 @@
 {
-  "login": [
+  "signup": [
     {
       "id": 1,
       "email": "jay@test.com",
@@ -76,7 +76,7 @@
       "id": 15
     }
   ],
-  "signup": [
+  "login": [
     {
       "id": 1,
       "name": "Jayandra Thapa",
@@ -310,6 +310,108 @@
       "email": "jdhhd@gail",
       "password": "nhhhd",
       "id": 39
+    },
+    {
+      "name": "Karuna Thapa",
+      "email": "karuna@gmail.com",
+      "password": "karuna@12345",
+      "id": 40
+    },
+    {
+      "name": "Gauri",
+      "email": "gaurithapa@gmail.com",
+      "password": "Gauri@34",
+      "id": 41
+    },
+    {
+      "name": "Ram",
+      "email": "ram@test.gmail.com",
+      "password": "Ram@123",
+      "id": 42
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 43
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 44
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 45
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 46
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 47
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 48
+    },
+    {
+      "name": "Surendra Thapa",
+      "email": "surendra@gmail.com",
+      "password": "Surendra@123",
+      "id": 49
+    },
+    {
+      "name": "Dhan Thapa",
+      "email": "dhan@test.gmail.com",
+      "password": "dhan@123",
+      "id": 50
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 51
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 52
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 53
+    },
+    {
+      "name": "dhhd",
+      "email": "dh@hdhd@hdh",
+      "password": "hdhd",
+      "id": 54
+    },
+    {
+      "name": "dhhdhd",
+      "email": "jdhhd@gail",
+      "password": "nhhhd",
+      "id": 55
+    },
+    {
+      "name": "hdyyd",
+      "email": "jdhhd@gail",
+      "password": "nhhhd",
+      "id": 56
     }
   ]
 }

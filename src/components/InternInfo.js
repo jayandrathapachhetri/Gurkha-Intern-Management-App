@@ -31,7 +31,7 @@ const InternInfo = () => {
         <div className="card-body">
           <table className="table table-bordered">
             <thead className="bg-dark text-white">
-              <tr>
+              <tr className="border-dark">
                 <th>Information</th>
                 <th>Details</th>
               </tr>
