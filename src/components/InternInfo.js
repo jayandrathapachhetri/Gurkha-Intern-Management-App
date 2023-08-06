@@ -32,8 +32,8 @@ const InternInfo = () => {
           <table className="table table-bordered ">
             <thead className="table-dark">
               <tr className="border-dark">
-                <th>Information</th>
-                <th>Details</th>
+                <th className="col-md-4">Information</th>
+                <th className="col-md-8">Details</th>
               </tr>
             </thead>
             <tbody>

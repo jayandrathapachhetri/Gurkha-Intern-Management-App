@@ -18,6 +18,7 @@ const InternEdit = () => {
         emailchange(resp.email);
         phonechange(resp.phone);
         collegechange(resp.college);
+        addresschange(resp.address);
         rolechange(resp.role);
         startofdatechange(resp.startofdate);
         endofdatechange(resp.endofdate);
