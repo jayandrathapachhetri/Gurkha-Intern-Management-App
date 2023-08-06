@@ -1,71 +1,3 @@
-// import React from "react";
-// import Navbar from "./Navbar";
-// import Carousel from "react-bootstrap/Carousel";
-// import { Link } from "react-router-dom";
-
-// function Home() {
-//   return (
-//     <>
-//       <Navbar />
-//       <div className="container my-10">
-//         <div className="row">
-//           <div className="col-4">
-//             <div className="jumbotron">
-//               <h1 className="display-4">Gurkha Technology</h1>
-//               <p className="lead">
-//                 Welcome to Gurkha Technology, a leading digital marketing agency and
-//                 technology solutions provider based in Nepal.
-//               </p>
-//               <p className="lead">
-//                 <Link className="btn btn-primary btn-md" to="/about" role="button">
-//                   Learn more
-//                 </Link>
-//               </p>
-//             </div>
-//           </div>
-//           <div className="col-8">
-//             <Carousel fade>
-//               <Carousel.Item>
-//                 <img src="Images/home1.jpg" className="d-block w-100" alt="..." />
-//                 <Carousel.Caption>
-//                   <h3>First slide label</h3>
-//                   <p className="lead">
-//                     Digital Marketing Strategy and Consulting in Nepal.
-//                   </p>
-//                 </Carousel.Caption>
-//               </Carousel.Item>
-//               <Carousel.Item>
-//                 <img src="Images/home2.jpg" className="d-block w-100" alt="..." />
-//                 <Carousel.Caption>
-//                   <h3>Second slide label</h3>
-//                   <p className="lead">Online Advertising and Promotion in Nepal.</p>
-//                 </Carousel.Caption>
-//               </Carousel.Item>
-//               <Carousel.Item>
-//                 <img src="Images/home3.jpg" className="d-block w-100" alt="..." />
-//                 <Carousel.Caption>
-//                   <h3>Third slide label</h3>
-//                   <p className="lead">
-//                     Website Development and Optimization in Nepal
-//                   </p>
-//                 </Carousel.Caption>
-//               </Carousel.Item>
-//             </Carousel>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Home;
-
-// {
-//   /* <div className="container-fluid d-flex justify-content-center align-items-center vh-100">
-//       <img src="Images/Home.jpg" alt="Home" className="img-fluid" />
-//     </div> */
-// }
-
 import React from "react";
 import Navbar from "./Navbar";
 import Carousel from "react-bootstrap/Carousel";
@@ -75,51 +7,50 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="container d-flex justify-content-center align-items-center mt-10">
-        <div className="row  ">
-          <div className="jumbotron col-4">
+        <div className="container">
+          <div className="jumbotron">
             <h1 className="display-4">Gurkha Technology</h1>
             <p className="lead">
               Welcome to Gurkha Technology, a leading digital marketing agency and
               technology solutions provider based in Nepal.
             </p>
             <p className="lead">
-              <Link className="btn btn-primary btn-lg" to="/about" role="button">
+              <Link className="btn btn-primary btn-md" to="/about" role="button">
                 Learn more
               </Link>
             </p>
           </div>
-          <div className="col-8">
+          <div >
             <Carousel fade>
               <Carousel.Item>
                 <img src="Images/home1.jpg" className="d-block w-100" alt="..." />
                 <Carousel.Caption>
-                  <h3>First slide label</h3>
-                  <p className="lead">
-                    Digital Marketing Strategy and Consulting in Nepal.
-                  </p>
+                  <h2>Intern Details</h2>
+                  <p className="lead fw-bold">Easily manage intern profiles by creating, reading, updating, and deleting their information. The app provides a user-friendly interface to handle intern data effectively.</p>
+                  
+      
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
                 <img src="Images/home2.jpg" className="d-block w-100" alt="..." />
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p className="lead">Online Advertising and Promotion in Nepal.</p>
+                  <h2>Categorization and Filtering</h2>
+                  <p className="lead fw-bold"> Efficiently categorize interns based on their roles. Use filters to quickly access specific groups with their detail informantion, simplifying the tracking process.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
-                <img src="Images/home3.jpg" className="d-block w-100" alt="..." />
+                <img src="Images/home3.jpg" className="d-block w-100" alt="..." />x
                 <Carousel.Caption>
-                  <h3>Third slide label</h3>
-                  <p className="lead">
-                    Website Development and Optimization in Nepal
-                  </p>
+                  <h2>Attendance System</h2>
+                  <p className="lead bolder fw-bold">
+                  Automate the attendance tracking for interns, eliminating the need for manual records. Admin can mark daily attendance through the app, and can monitor attendance records in real-time.
+                  </p>  
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </div>
         </div>
-      </div>
+
 
       {/* <div className="container">
       <div class="row">

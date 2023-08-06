@@ -9,19 +9,18 @@ export default function About() {
         <div className="row featurette d-flex justify-content-center align-items-center mb-3">
           <div className="col-md-7">
             <h2 className="featurette-heading">
-              It all started with Gurkha's Idea.
-              <span className="text-muted">It’ll blow your mind.</span>
+              Intern Details (Create, Read, Update, Delete)
+              {/* <span className="text-muted">It’ll blow your mind.</span> */}
             </h2>
             <p className="lead">
-              At Gurkha Technology, we understand the power of digital marketing
-              in today’s competitive market. Our team of experienced
-              professionals combines creativity, technical expertise, and
-              industry insights to craft tailor-made digital marketing campaigns
-              that drive growth and maximize ROI. From search engine
-              optimization (SEO) and social media marketing to content creation
-              and paid advertising, we offer a comprehensive range of services
-              to enhance your online visibility and reach your target audience
-              effectively.
+              This feature allows the admin to easily manage and maintain
+              detailed profiles of all the interns. The app provides an
+              intuitive user interface, enabling the admin to create new intern
+              profiles by capturing essential information such as name, contact
+              details, position, and start date. It also allows the admin to
+              view, update, or delete intern records whenever necessary. By
+              providing this CRUD functionality, the app ensures that intern
+              data is always up-to-date and easily accessible.
             </p>
           </div>
           <div className="col-md-5">
@@ -31,17 +30,17 @@ export default function About() {
         <div className="row featurette d-flex justify-content-center align-items-center mb-3">
           <div className="col-md-7 order-md-2">
             <h2 className="featurette-heading">
-              We started Gurkha in 2016
-              <span className="text-muted">It’ll blow your mind.</span>
+              Categorization and Filtering
+              {/* <span className="text-muted">It’ll blow your mind.</span> */}
             </h2>
             <p className="lead">
-              As a trusted partner, we believe in brand humanization, creating
-              authentic connections between businesses and their customers. We
-              go beyond the surface to understand your brand’s unique identity
-              and values, ensuring that every touchpoint reflects your brand
-              essence and resonates with your audience. Our brand humanization
-              strategies build trust, loyalty, and meaningful engagement,
-              fostering long-term relationships that drive business success.
+              The app offers a dynamic categorization system to classify interns
+              based on their respective roles and expertise areas. Interns can
+              be tagged under categories such as frontend, backend, flutter, QA,
+              blockchain, full stack, etc. This categorization simplifies the
+              process of locating specific groups of interns, allowing the admin
+              to efficiently manage and monitor interns based on their roles and
+              responsibilities.
             </p>
           </div>
           <div className="col-md-5 order-md-1">
@@ -51,15 +50,17 @@ export default function About() {
         <div className="row featurette d-flex justify-content-center align-items-center mb-3">
           <div className="col-md-7 my-3">
             <h2 className="featurette-heading">
-              First featurette heading. 
-              <span className="text-muted"> It’ll blow your mind.</span>
+              Attendance System
+              {/* <span className="text-muted"> It’ll blow your mind.</span> */}
             </h2>
             <p className="lead">
-              At Gurkha Technology, we are committed to knowledge sharing and
-              empowering businesses through mentorship, training, and workshops.
-              We believe in continuous learning and growth, and we offer
-              comprehensive programs to equip businesses and individuals with
-              the skills and knowledge needed to thrive in the digital age.
+              One of the core functionalities of the app is the automated
+              Attendance System. Interns can conveniently mark their daily
+              attendance through the app, eliminating the need for manual
+              attendance tracking. Each intern's attendance data is recorded in
+              real-time and can be instantly viewed by the admin. The attendance
+              system helps ensure punctuality, provides transparency, and
+              enables the admin to monitor intern attendance effectively.
             </p>
           </div>
           <div className="col-md-5">

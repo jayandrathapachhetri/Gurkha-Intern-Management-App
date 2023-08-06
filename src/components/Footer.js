@@ -16,10 +16,11 @@ function Footer() {
   return (
     <> 
     <div className='container'>
-    <hr className='featurette-divider'/>
+    
     <footer class="container" style={footerStyle}>
+    <hr className='featurette-divider'/>
       <p class="text-end"><a className="style-none text-decoration-none"  href="#">Back to top</a></p>
-      <p className='text-start'> © 2023 Gurkhatech Company Inc. <p className='text-center'>All rights reserved.  - Privacy Terms- </p> </p>  
+      <p className='text-start fw-bold'> © 2023 Gurkhatech Company Inc.</p>
       
     </footer>
     </div>

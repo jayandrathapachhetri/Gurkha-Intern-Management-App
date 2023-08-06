@@ -146,5 +146,61 @@
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
       "image": "Images/Hemraj.jpg"
     }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "name": "Jayandra Thapa",
+      "email": "jay@test.com",
+      "password": "jay@123"
+    },
+    {
+      "name": "hdhd",
+      "email": "sh@gdy",
+      "password": "dgtts",
+      "id": 2
+    },
+    {
+      "name": "dgdgd",
+      "email": "sggsg@dhdh",
+      "password": "dhdy2dggd",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "Loveson Khadka",
+      "email": "loveson@test.com",
+      "password": "Khadka@123",
+      "id": 5
+    },
+    {
+      "name": "Loveson ",
+      "email": "loveson@gmail.com",
+      "password": "Loveson@3",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    }
   ]
 }

@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <>
     <div className="container-fluid">
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light nav-pills" style={{backgroundColor:'#e3f2fd'}}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light nav-pills" style={{backgroundColor:'#e3f2fd'}}>
   <div className="container-fluid">
   <a class="navbar-brand" href="#">
       <img src="/favicon-32x32.png" alt="Logo" width="35" height="30" className="d-inline-block align-text-top mx-2"/>
