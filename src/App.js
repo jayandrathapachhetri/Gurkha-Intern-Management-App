@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LogIn from './components/LogIn';
 import Protected from './components/Protected';
 import Attadance from './components/Attadance';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <Route exact path='/internlist/interninfo/:empid' element={<InternInfo />}></Route>
           <Route exact path='/internlist/internedit/:empid' element={<InternEdit />}></Route>
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
     </div>
   );
