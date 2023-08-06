@@ -23,14 +23,14 @@ const InternInfo = () => {
 
   return (
     <><Navbar/>
-    <div className="container mt-3 text-start">
+    <div className="container my-3 text-start">
       <div className="card">
-        <div className="card-title text-center">
+        <div className="card-title text-center mt-3">
           <h2>Intern Information</h2>
         </div>
         <div className="card-body">
-          <table className="table table-bordered">
-            <thead className="bg-dark text-white">
+          <table className="table table-bordered ">
+            <thead className="table-dark">
               <tr className="border-dark">
                 <th>Information</th>
                 <th>Details</th>

@@ -50,13 +50,13 @@ const InternCreate = () => {
 
   return (
     <> <Navbar/>
-    <div className="mt-2">
+    <div >
       <div className="row">
         <div className="offset-lg-3 col-lg-6">
-          <form className="container" onSubmit={handlesubmit}>
+          <form className="container my-3" onSubmit={handlesubmit}>
             <div className="card" style={{ textAlign: "left" }}>
               <div className="card-title">
-                <h2>Intern Data Create</h2>
+                <h2 className="text-center mt-3">Intern Data Create</h2>
               </div>
               <div className="card-body">
                 <div className="row">
@@ -170,15 +170,15 @@ const InternCreate = () => {
                       </div>
                     </div>
 
-                    <div className="col-lg-12">
-                      <div className="form-check">
+                    <div className="col-lg-12 ">
+                      <div className="form-check my-1">
                         <input
                           checked={active}
                           onChange={(e) => activechange(e.target.checked)}
                           type="checkbox"
                           className="form-check-input"
                         ></input>
-                        <label className="form-check-label">Is Active</label>
+                        <label className="form-check-label mt-1">Is Active</label>
                       </div>
                     </div>
                     <div className="col-lg-12">

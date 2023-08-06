@@ -61,13 +61,13 @@ const InternEdit = () => {
   };
   return (
     <><Navbar/>
-    <div className="mt-2">
+    <div >
       <div className="row">
         <div className="offset-lg-3 col-lg-6">
           <form className="container" onSubmit={handlesubmit}>
-            <div className="card" style={{ textAlign: "left" }}>
-              <div className="card-title">
-                <h2>Intern Data Update</h2>
+            <div className="card my-3" style={{ textAlign: "left" }}>
+              <div className="card-title mt-3">
+                <h2 className="text-center ">Intern Data Update</h2>
               </div>
               <div className="card-body">
                 <div className="row">
@@ -184,7 +184,7 @@ const InternEdit = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-12">
+                  <div className="col-lg-12 my-1">
                     <div className="form-check">
                       <input
                         checked={active}
@@ -192,7 +192,7 @@ const InternEdit = () => {
                         type="checkbox"
                         className="form-check-input"
                       ></input>
-                      <label className="form-check-label">Is Active</label>
+                      <label className="form-check-label mt-1">Is Active</label>
                     </div>
                   </div>
                   <div className="col-lg-12">

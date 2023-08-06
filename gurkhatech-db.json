@@ -10,6 +10,18 @@
       "role": "Frontend",
       "startofdate": "2080/02/01",
       "endofdate": "-"
+    },
+    {
+      "name": "Surendra Thapa",
+      "email": "sue",
+      "phone": "djdj",
+      "college": "dhhd",
+      "address": "hdhd",
+      "role": "jdjd",
+      "startofdate": "jdjd",
+      "endofdate": "",
+      "active": true,
+      "id": 2
     }
   ],
   "interndetails": [
@@ -148,7 +160,9 @@
       "name": "Hemraj Budhathoki",
       "category": "QA",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/Hemraj.jpg"
+      "image": "Images/Hemraj.jpg",
+      "present_day": 1,
+      "absent_day": 0
     }
   ],
   "login": [

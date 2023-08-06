@@ -47,30 +47,30 @@ const InternListing = () => {
   }, []);
   return (
     <> <Navbar/>
-    <div className="container mt-3">
+    <div className="container my-3">
       <div className="card">
-        <div className="card-title">
+        <div className="card-title mt-3">
           <h2>Intern Lists</h2>
         </div>
         <div className="card-body">
-          <div className="divbtn">
+          <div className="divbtn mb-1">
             <Link to="/internlist/interncreate" className="btn btn-success">
               Add New (+)
             </Link>
           </div>
-          <table className="table table-bordered">
-            <thead className="bg-dark text-white">
-              <tr>
+          <table className="table table-bordered table-striped">
+            <thead className="table-dark">
+              <tr table-dark>
               <td>ID</td>
-                <td>Name</td>
-                <td>Email</td>
-                <td>Phone</td>
-                <td>College</td>
-                <td>Address</td>
-                <td>Role</td>
-                <td>Joining Date</td>
-                <td>Leaving Date</td>
-                <td>Action</td>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>College</th>
+                <th>Address</th>
+                <th>Role</th>
+                <th>Joining Date</th>
+                <th>Leaving Date</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>
