@@ -81,7 +81,7 @@
 
 
 import React from 'react';
-import { Link, useNavigate, NavLink } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 import { NavDropdown } from "react-bootstrap";
 
 function Navbar() {
@@ -111,7 +111,7 @@ function Navbar() {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 {localStorage.getItem("user-info") ? (
                   <>
-                    <li className="nav-item">
+                    <li className="nav-item mx-1">
                       <NavLink className="nav-link" activeClassName="active" exact to="/">
                         Home
                       </NavLink>
@@ -121,7 +121,7 @@ function Navbar() {
                         About
                       </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item mx-1">
                       <NavLink className="nav-link" activeClassName="active" to="/interndetails">
                         Intern Details
                       </NavLink>
@@ -131,7 +131,7 @@ function Navbar() {
                         Attadance
                       </NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item mx-1">
                       <NavLink className="nav-link" activeClassName="active" to="/internlist">
                         Intern DashBoard
                       </NavLink>
@@ -143,7 +143,7 @@ function Navbar() {
                       {/* <Link className="nav-link mx-1" to="/register">Register</Link> */}
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link mx-1" to="/login">Log in</Link>
+                      <NavLink className="nav-link mx-1" to="/login">Log in</NavLink>
                     </li>
                   </>
                 )}

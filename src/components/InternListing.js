@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { Link, useNavigate} from "react-router-dom";
+import { Link} from "react-router-dom";
 // import "./App.css";
 import Navbar from './Navbar';
 
 
 const InternListing = () => {
   const [empdata, empdatachange] = useState([]);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   // href is use so no need of navigate 
   // const LoadDetail = (id) => {

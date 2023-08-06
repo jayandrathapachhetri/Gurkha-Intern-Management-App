@@ -10,18 +10,6 @@
       "role": "Frontend",
       "startofdate": "2080/02/01",
       "endofdate": "-"
-    },
-    {
-      "name": "Surendra Thapa",
-      "email": "sue",
-      "phone": "djdj",
-      "college": "dhhd",
-      "address": "hdhd",
-      "role": "jdjd",
-      "startofdate": "jdjd",
-      "endofdate": "",
-      "active": true,
-      "id": 2
     }
   ],
   "interndetails": [
@@ -48,7 +36,9 @@
       "name": "Asmit Adhikari",
       "category": "Blockchain",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/Asmit.jpg"
+      "image": "Images/Asmit.jpg",
+      "present_day": 4,
+      "absent_day": 0
     },
     {
       "id": 4,
@@ -225,6 +215,12 @@
       "email": "jdhhd@gail",
       "password": "nhhhd",
       "id": 10
+    },
+    {
+      "name": "nikisma",
+      "email": "nikishma@test.com",
+      "password": "nikisma@re",
+      "id": 11
     }
   ]
 }
