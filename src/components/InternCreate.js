@@ -73,7 +73,7 @@ const InternCreate = () => {
 
                   <div className="col-lg-12">
                     <div className="form-group">
-                      <label>Name</label>
+                      <label>Name <span className="text-danger">*</span></label>
                       <input
                         required
                         value={name}
@@ -91,8 +91,9 @@ const InternCreate = () => {
 
                   <div className="col-lg-12">
                     <div className="form-group">
-                      <label>Email</label>
+                      <label>Email <span className="text-danger">*</span></label>
                       <input
+                        required
                         value={email}
                         onMouseDown={(e) => valemailchange(true)}
                         onChange={(e) => emailchange(e.target.value)}
@@ -141,8 +142,9 @@ const InternCreate = () => {
 
                     <div className="col-lg-12">
                       <div className="form-group">
-                        <label>Role</label>
+                        <label>Role <span className="text-danger">*</span></label>
                         <input
+                        required
                           value={role}
                           onChange={(e) => rolechange(e.target.value)}
                           className="form-control"
@@ -151,8 +153,9 @@ const InternCreate = () => {
                     </div>
                     <div className="col-lg-12">
                       <div className="form-group">
-                        <label>Joining Date</label>
+                        <label>Joining Date <span className="text-danger">*</span></label>
                         <input
+                          required
                           value={startofdate}
                           onChange={(e) => startofdatechange(e.target.value)}
                           className="form-control"
