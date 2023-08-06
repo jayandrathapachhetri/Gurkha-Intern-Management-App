@@ -1,55 +1,34 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Carousel from "react-bootstrap/Carousel";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
       <Navbar />
-        <div className="container">
-          <div className="jumbotron">
-            <h1 className="display-4">Gurkha Technology</h1>
-            <p className="lead">
-              Welcome to Gurkha Technology, a leading digital marketing agency and
-              technology solutions provider based in Nepal.
-            </p>
-            <p className="lead">
-              <Link className="btn btn-primary btn-md" to="/about" role="button">
+      
+      <section className="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+  <div className="container">
+    <div className="d-sm-flex align-items-center justify-content-between">
+      <div>
+        <h1>
+          Become a <span className="text-warning"> Web Developer </span>
+        </h1>
+        <p className="lead my-4">
+        Gurkha Intern Management App is a responsive web application designed to streamline administrative activities within the company, catering specifically to all the interns. This app offers a range of essential features to enhance efficiency and improve overall management.
+        </p>
+        <Link className="btn btn-primary btn-md lead" to="/about" role="button">
                 Learn more
               </Link>
-            </p>
-          </div>
-          <div >
-            <Carousel fade>
-              <Carousel.Item>
-                <img src="Images/home1.jpg" className="d-block w-100" alt="..." />
-                <Carousel.Caption>
-                  <h2>Intern Details</h2>
-                  <p className="lead fw-bold">Easily manage intern profiles by creating, reading, updating, and deleting their information. The app provides a user-friendly interface to handle intern data effectively.</p>
-                  
-      
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img src="Images/home2.jpg" className="d-block w-100" alt="..." />
-                <Carousel.Caption>
-                  <h2>Categorization and Filtering</h2>
-                  <p className="lead fw-bold"> Efficiently categorize interns based on their roles. Use filters to quickly access specific groups with their detail informantion, simplifying the tracking process.</p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <img src="Images/home3.jpg" className="d-block w-100" alt="..." />x
-                <Carousel.Caption>
-                  <h2>Attendance System</h2>
-                  <p className="lead bolder fw-bold">
-                  Automate the attendance tracking for interns, eliminating the need for manual records. Admin can mark daily attendance through the app, and can monitor attendance records in real-time.
-                  </p>  
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
-          </div>
-        </div>
+      </div>
+      <img
+        className="img-fluid w-50 d-none d-sm-block"
+        src="Images/humanresource.svg"
+        alt=""
+      />
+    </div>
+  </div>
+</section>
 
 
       {/* <div className="container">
