@@ -40,6 +40,9 @@ function Navbar() {
           <a className="nav-link" href="/interndetails">Intern Details</a>
         </li>
         <li className="nav-item">
+          <a className="nav-link" href="/attadance">Attadance</a>
+        </li>
+        <li className="nav-item">
           <a className="nav-link" href="/internlist">Intern DashBoard</a>
         </li>
         </>) : (<>

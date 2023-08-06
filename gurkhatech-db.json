@@ -18,14 +18,18 @@
       "name": "Jayandra Thapa",
       "category": "Frontend",
       "description": "Hello, It’s me Jayandra Thapa. I'm a passionate frontend developer with a strong foundation in HTML, CSS, and JavaScript. I have completed several personal projects where I enhanced my skills in creating responsive and user-friendly websites. I'm excited about this internship opportunity because it will allow me to apply my knowledge in a professional setting and further develop my skills under the guidance of experienced mentors.",
-      "image": "Images/Jayandra.jpg"
+      "image": "Images/Jayandra.jpg",
+      "present_day": 19,
+      "absent_day": 17
     },
     {
       "id": 2,
       "name": "Niroj Lama",
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/niroj.jpg"
+      "image": "Images/niroj.jpg",
+      "present_day": 1,
+      "absent_day": 0
     },
     {
       "id": 3,
@@ -201,6 +205,12 @@
       "email": "",
       "password": "",
       "id": 9
+    },
+    {
+      "name": "dd",
+      "email": "jdhhd@gail",
+      "password": "nhhhd",
+      "id": 10
     }
   ]
 }

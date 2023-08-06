@@ -11,6 +11,7 @@ import Intern from './components/Intern';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LogIn from './components/LogIn';
 import Protected from './components/Protected';
+import Attadance from './components/Attadance';
 // import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/' element={<Home />} > </Route>
           <Route exact path='/about' element={<About />} > </Route>
           <Route exact path='/interndetails' element={<Protected Component = {Intern}/>}></Route>
+          <Route exact path='/attadance' element={<Protected Component = {Attadance}/>}></Route>
           <Route exact path='/internlist' element={<Protected Component = {InternListing} />}></Route>
           <Route exact path='/internlist/interncreate' element={<InternCreate />}></Route>
           <Route exact path='/internlist/interninfo/:empid' element={<InternInfo />}></Route>
