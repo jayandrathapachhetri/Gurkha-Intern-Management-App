@@ -58,7 +58,7 @@ function Intern() {
         {loading ? (
           <Spinner />
         ) : (
-          <div className="row">
+          <div className="row g-4">
             {interndetails.map((element) => {
               return (
                 <div className="col-md-4" key={element.id}>
