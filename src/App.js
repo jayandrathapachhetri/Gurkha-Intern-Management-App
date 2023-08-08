@@ -10,6 +10,7 @@ import Intern from './components/Intern';
 // import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LogIn from './components/LogIn';
+import Register from './components/Register';
 import Protected from './components/Protected';
 import Attadance from './components/Attadance';
 // import Footer from './components/Footer';
@@ -21,6 +22,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/login' element={<LogIn />}> </Route>
+          <Route exact path='/register' element={<Register />}> </Route>
           <Route exact path='/' element={<Home />} > </Route>
           <Route exact path='/about' element={<About />} > </Route>
           <Route exact path='/interndetails' element={<Protected Component = {Intern}/>}></Route>

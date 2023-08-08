@@ -41,7 +41,7 @@
       "category": "Frontend",
       "description": "Hello, It’s me Jayandra Thapa. I'm a passionate frontend developer with a strong foundation in HTML, CSS, and JavaScript. I have completed several personal projects where I enhanced my skills in creating responsive and user-friendly websites. I'm excited about this internship opportunity because it will allow me to apply my knowledge in a professional setting and further develop my skills under the guidance of experienced mentors.",
       "image": "Images/Jayandra.jpg",
-      "present_day": 20,
+      "present_day": 22,
       "absent_day": 18
     },
     {
@@ -50,8 +50,8 @@
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
       "image": "Images/niroj.jpg",
-      "present_day": 1,
-      "absent_day": 0
+      "present_day": 4,
+      "absent_day": 1
     },
     {
       "id": 3,
@@ -243,6 +243,136 @@
       "email": "nikishma@test.com",
       "password": "nikisma@re",
       "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "jddj",
+      "email": "dndb",
+      "password": "ddbd",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "hshsh",
+      "email": "nssb",
+      "password": "sgsgs",
+      "id": 15
+    },
+    {
+      "name": "",
+      "email": "hdhd",
+      "password": "dhhd",
+      "id": 16
+    },
+    {
+      "name": "hdy",
+      "email": "hddy",
+      "password": "djd",
+      "id": 17
+    },
+    {
+      "name": "dhdhd",
+      "email": "ehddhd@jdu",
+      "password": "ksisis",
+      "id": 18
+    },
+    {
+      "name": "Niroj Lama",
+      "email": "niroj2test@gmail.com",
+      "password": "Niroj@123",
+      "id": 19
+    },
+    {
+      "email": "nydyyd",
+      "password": "hdyyd",
+      "id": 20
+    },
+    {
+      "name": "mdid",
+      "email": "bbhhdQ@gmail.com",
+      "password": "dhdh",
+      "id": 21
+    },
+    {
+      "name": "nnjj",
+      "email": "nnn@gmail.com",
+      "password": "nn",
+      "id": 22
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 23
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 24
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 25
+    },
+    {
+      "email": "dhdh",
+      "password": "hddh",
+      "id": 26
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 27
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 28
+    },
+    {
+      "email": "hduud",
+      "password": "dhgydy",
+      "id": 29
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 30
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 31
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 32
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 33
+    },
+    {
+      "email": "hdud",
+      "password": "dhhd",
+      "id": 34
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 35
     }
   ]
 }

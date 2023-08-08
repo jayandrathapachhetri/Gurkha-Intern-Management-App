@@ -140,7 +140,7 @@ function Navbar() {
                 ) : (
                   <>
                     <li className="nav-item">
-                      {/* <Link className="nav-link mx-1" to="/register">Register</Link> */}
+                    <NavLink className="nav-link mx-1" to="/register">Register</NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink className="nav-link mx-1" to="/login">Log in</NavLink>

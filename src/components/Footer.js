@@ -16,7 +16,7 @@ function Footer() {
   return (
    
    <>
-  <div className='container '>
+  {/* <div className='container '>
     <footer className="container">
       <hr className='featurette-divider' />
       <p className="text-end"><a className="style-none text-decoration-none text-dark" href="#"> <i className="bi bi-arrow-up-circle-fill h3"></i></a></p>
@@ -30,7 +30,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  </div>
+  </div> */}
 </>
 
     
