@@ -162,7 +162,7 @@
       "category": "QA",
       "image": "Images/Hemraj.jpg",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "present_day": 1,
+      "present_day": 2,
       "absent_day": 0
     }
   ],
@@ -209,6 +209,16 @@
       "email": "surendra@gmail.com",
       "password": "Surendra1",
       "id": 5
+    },
+    {
+      "email": "sita@gmail.com",
+      "password": "Sita@123",
+      "id": 6
+    },
+    {
+      "email": "ramesh@gmail.com",
+      "password": "Remesh@123",
+      "id": 7
     }
   ]
 }

@@ -43,7 +43,7 @@ function Intern() {
   return (
     <>
     <Navbar/>
-        <div className=" container d-flex flex-wrap bg-secondary rounded my-2">
+        <div className=" container d-flex flex-wrap bg-secondary rounded my-3">
           <button className="btn btn-sm btn-primary mx-3 my-1" key="frontend" onClick={() => filterItem('Frontend')}>Frontend</button>
           <button className="btn btn-sm btn-primary mx-3 my-1" key="backend" onClick={() => filterItem('Backend')}>Backend</button>
           <button className="btn btn-sm btn-primary mx-3 my-1" key="fullStack" onClick={() => filterItem('FullStack')}>FullStack</button>
