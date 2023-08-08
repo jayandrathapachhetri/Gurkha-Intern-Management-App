@@ -1,9 +1,6 @@
 import React, {useState, useEffect} from 'react';
-// import { Button } from 'react-bootstrap';
 import Navbar from './Navbar';
-
 import { useNavigate} from "react-router-dom";
-// import './style.css';
 
 function Register() {
   const [name, setName] = useState("");
@@ -23,7 +20,7 @@ function Register() {
     console.log('data', name, email, password);
     let item = { name, email, password };
 
-    let result =  await fetch("http://localhost:3000/login", {
+    let result =  await fetch("http://localhost:3000/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -56,11 +53,10 @@ function Register() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 className="form-control"
-                // id="exampleInputPassword1"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email address <span className="text-danger">*</span></label>
+              <label htmlFor="email">Email address <span className="text-danger">*</span></label>
               <input
                 required
                 type="email"
@@ -69,6 +65,7 @@ function Register() {
                 onChange={(e) => setEmail(e.target.value)}
                 className="form-control"
                 aria-describedby="emailHelp"
+                id='email'
               />
               {email.length === 8 && emailvalidation && (
                         <span className="text-danger">
@@ -76,12 +73,12 @@ function Register() {
                           Enter the vaild email{" "}
                         </span>
                         )}
-              <small id="emailHelp" className="form-text text-muted">
+              <small className="form-text text-muted">
                 We'll never share your email with anyone else.
                </small>
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputPassword1">Password <span className="text-danger">*</span></label>
+              <label htmlFor="password">Password <span className="text-danger">*</span></label>
               <input
                 required
                 type="password"
@@ -95,7 +92,6 @@ function Register() {
               <input
                 type="checkbox"
                 className="form-check-input"
-                // id="exampleCheck1"
               />
               <label className="form-check-label" htmlFor="exampleCheck1">
                 Create New Account
