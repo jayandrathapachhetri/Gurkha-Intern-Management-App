@@ -177,6 +177,32 @@
       "absent_day": 0
     }
   ],
+  "register": [
+    {
+      "id": 1,
+      "name": "Jayandra Thapa",
+      "email": "jay@test.com",
+      "password": "jay@123"
+    },
+    {
+      "name": "Hari ",
+      "email": "hari@gmail.com",
+      "password": "hari#dju",
+      "id": 2
+    },
+    {
+      "name": "dhd",
+      "email": "dhhd@gmail.com",
+      "password": "dhd",
+      "id": 3
+    },
+    {
+      "name": "dgd",
+      "email": "gdtQ@g",
+      "password": "djud",
+      "id": 4
+    }
+  ],
   "login": [
     {
       "id": 1,
@@ -185,194 +211,94 @@
       "password": "jay@123"
     },
     {
-      "name": "hdhd",
-      "email": "sh@gdy",
-      "password": "dgtts",
+      "email": "",
+      "password": "",
       "id": 2
     },
     {
-      "name": "dgdgd",
-      "email": "sggsg@dhdh",
-      "password": "dhdy2dggd",
+      "email": "dhdh",
+      "password": "hdh",
       "id": 3
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "ga@g",
+      "password": "dgdy",
       "id": 4
     },
     {
-      "name": "Loveson Khadka",
-      "email": "loveson@test.com",
-      "password": "Khadka@123",
+      "email": "a@g",
+      "password": "dhddyd",
       "id": 5
     },
     {
-      "name": "Loveson ",
-      "email": "loveson@gmail.com",
-      "password": "Loveson@3",
+      "email": "hy@hh",
+      "password": "dhdy",
       "id": 6
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "hdyd@hd",
+      "password": "dkkdd",
       "id": 7
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "gdhh@dhh",
+      "password": "dhyd",
       "id": 8
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "gdt@hdy",
+      "password": "dhhd",
       "id": 9
     },
     {
-      "name": "dd",
-      "email": "jdhhd@gail",
-      "password": "nhhhd",
+      "email": "dhdhdydh@hdhd",
+      "password": "hdhd",
       "id": 10
     },
     {
-      "name": "nikisma",
-      "email": "nikishma@test.com",
-      "password": "nikisma@re",
+      "email": "dhhd@gmail.com",
+      "password": "hdhd",
       "id": 11
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "hdhydyyydh@dhddy",
+      "password": "dnhd",
       "id": 12
     },
     {
-      "name": "jddj",
-      "email": "dndb",
-      "password": "ddbd",
+      "email": "hdy@hdh",
+      "password": "dhhd",
       "id": 13
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "email": "jayandra@gmail.com",
+      "password": "Jayandra@123",
       "id": 14
     },
     {
-      "name": "hshsh",
-      "email": "nssb",
-      "password": "sgsgs",
+      "email": "jay@gmail.com",
+      "password": "dgdt",
       "id": 15
     },
     {
-      "name": "",
-      "email": "hdhd",
-      "password": "dhhd",
+      "email": "jah@gmail.com",
+      "password": "ss",
       "id": 16
     },
     {
-      "name": "hdy",
-      "email": "hddy",
-      "password": "djd",
+      "email": "jayandra@gmail.com",
+      "password": "asdfghjkl",
       "id": 17
     },
     {
-      "name": "dhdhd",
-      "email": "ehddhd@jdu",
-      "password": "ksisis",
+      "email": "hdh@gmail.com",
+      "password": "jayandrathapaA1",
       "id": 18
     },
     {
-      "name": "Niroj Lama",
-      "email": "niroj2test@gmail.com",
-      "password": "Niroj@123",
+      "email": "jayandrathapa@gmail.com",
+      "password": "Jayandrathapa@2",
       "id": 19
-    },
-    {
-      "email": "nydyyd",
-      "password": "hdyyd",
-      "id": 20
-    },
-    {
-      "name": "mdid",
-      "email": "bbhhdQ@gmail.com",
-      "password": "dhdh",
-      "id": 21
-    },
-    {
-      "name": "nnjj",
-      "email": "nnn@gmail.com",
-      "password": "nn",
-      "id": 22
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 23
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 24
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 25
-    },
-    {
-      "email": "dhdh",
-      "password": "hddh",
-      "id": 26
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 27
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 28
-    },
-    {
-      "email": "hduud",
-      "password": "dhgydy",
-      "id": 29
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 30
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 31
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 32
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 33
-    },
-    {
-      "email": "hdud",
-      "password": "dhhd",
-      "id": 34
-    },
-    {
-      "email": "",
-      "password": "",
-      "id": 35
     }
   ]
 }
