@@ -21,17 +21,6 @@
       "role": "ddgd",
       "startofdate": "dhd",
       "endofdate": "dgd"
-    },
-    {
-      "id": 3,
-      "name": "sffsf",
-      "email": "ssbv",
-      "phone": "ssgsg",
-      "college": "",
-      "address": "",
-      "role": "kdj",
-      "startofdate": "dhdg",
-      "endofdate": ""
     }
   ],
   "interndetails": [
@@ -171,8 +160,8 @@
       "id": 19,
       "name": "Hemraj Budhathoki",
       "category": "QA",
-      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
       "image": "Images/Hemraj.jpg",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
       "present_day": 1,
       "absent_day": 0
     }
@@ -185,22 +174,10 @@
       "password": "jay@123"
     },
     {
-      "name": "Hari ",
-      "email": "hari@gmail.com",
-      "password": "hari#dju",
+      "name": "Karuna Thapa",
+      "email": "karuna@gmail.com",
+      "password": "Kaurna@123",
       "id": 2
-    },
-    {
-      "name": "dhd",
-      "email": "dhhd@gmail.com",
-      "password": "dhd",
-      "id": 3
-    },
-    {
-      "name": "dgd",
-      "email": "gdtQ@g",
-      "password": "djud",
-      "id": 4
     }
   ],
   "login": [
@@ -211,105 +188,27 @@
       "password": "jay@123"
     },
     {
-      "email": "",
-      "password": "",
+      "email": "ram@gmail.com",
+      "password": "Ram@123",
       "id": 2
     },
     {
-      "email": "dhdh",
-      "password": "hdh",
+      "name": "Gauri Thapa",
+      "email": "gauri@gmail.com",
+      "password": "Gauri@123",
       "id": 3
     },
     {
-      "email": "ga@g",
-      "password": "dgdy",
+      "name": "Dhan Thapa",
+      "email": "dhan@gmail.com",
+      "password": "Dhan@123",
       "id": 4
     },
     {
-      "email": "a@g",
-      "password": "dhddyd",
+      "name": "Surendra Thapa",
+      "email": "surendra@gmail.com",
+      "password": "Surendra1",
       "id": 5
-    },
-    {
-      "email": "hy@hh",
-      "password": "dhdy",
-      "id": 6
-    },
-    {
-      "email": "hdyd@hd",
-      "password": "dkkdd",
-      "id": 7
-    },
-    {
-      "email": "gdhh@dhh",
-      "password": "dhyd",
-      "id": 8
-    },
-    {
-      "email": "gdt@hdy",
-      "password": "dhhd",
-      "id": 9
-    },
-    {
-      "email": "dhdhdydh@hdhd",
-      "password": "hdhd",
-      "id": 10
-    },
-    {
-      "email": "dhhd@gmail.com",
-      "password": "hdhd",
-      "id": 11
-    },
-    {
-      "email": "hdhydyyydh@dhddy",
-      "password": "dnhd",
-      "id": 12
-    },
-    {
-      "email": "hdy@hdh",
-      "password": "dhhd",
-      "id": 13
-    },
-    {
-      "email": "jayandra@gmail.com",
-      "password": "Jayandra@123",
-      "id": 14
-    },
-    {
-      "email": "jay@gmail.com",
-      "password": "dgdt",
-      "id": 15
-    },
-    {
-      "email": "jah@gmail.com",
-      "password": "ss",
-      "id": 16
-    },
-    {
-      "email": "jayandra@gmail.com",
-      "password": "asdfghjkl",
-      "id": 17
-    },
-    {
-      "email": "hdh@gmail.com",
-      "password": "jayandrathapaA1",
-      "id": 18
-    },
-    {
-      "email": "jayandrathapa@gmail.com",
-      "password": "Jayandrathapa@2",
-      "id": 19
-    },
-    {
-      "email": "jay@gmail.com",
-      "password": "Jay@123",
-      "id": 20
-    },
-    {
-      "name": "Jayandra Thapa",
-      "email": "jay@gmail.com",
-      "password": "jayJwwwww1",
-      "id": 21
     }
   ]
 }

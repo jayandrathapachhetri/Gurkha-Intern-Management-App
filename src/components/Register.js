@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import { useNavigate } from 'react-router-dom';
 
-function LogIn() {
+function Register() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -19,7 +19,7 @@ function LogIn() {
     }
   }, [navigate]);
 
-  async function login(e) {
+  async function signUp(e) {
     e.preventDefault();
     if (!emailValidation) {
       setValidEmail(false);
@@ -34,7 +34,7 @@ function LogIn() {
     console.log('data', name, email, password);
     let item = { name, email, password };
 
-    let result = await fetch('http://localhost:3000/login', {
+    let result = await fetch('http://localhost:3000/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -82,7 +82,7 @@ function LogIn() {
           <h2>
             <strong>Gurkha Intern</strong>
           </h2>
-          <form className="text-start" onSubmit={login}>
+          <form className="text-start" onSubmit={signUp}>
             <div className="form-group">
                <label htmlFor="name">Name <span className="text-danger">*</span></label>
                <input
@@ -138,11 +138,11 @@ function LogIn() {
             <div className="form-group form-check">
               <input type="checkbox" className="form-check-input" />
               <label className="form-check-label" htmlFor="exampleCheck1">
-                Check me out
+              Create New Account
               </label>
             </div>
             <button type="submit" className="btn btn-primary">
-              Login
+              Register
             </button>
           </form>
         </div>
@@ -151,4 +151,4 @@ function LogIn() {
   );
 }
 
-export default LogIn;
+export default Register;
