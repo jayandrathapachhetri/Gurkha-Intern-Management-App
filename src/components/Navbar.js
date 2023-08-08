@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate, NavLink } from 'react-router-dom';
-import { NavDropdown } from "react-bootstrap";
 
 function Navbar() {
   const user = JSON.parse(localStorage.getItem("user-info"));

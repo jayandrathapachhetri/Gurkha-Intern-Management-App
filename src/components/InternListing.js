@@ -1,21 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link} from "react-router-dom";
-// import "./App.css";
 import Navbar from './Navbar';
 
 
 const InternListing = () => {
   const [empdata, empdatachange] = useState([]);
-  // const navigate = useNavigate();
-
-  // href is use so no need of navigate 
-  // const LoadDetail = (id) => {
-  //   navigate("/employee/detail/" +id);
-  // };
-
-  // const LoadEdit = (id) => {
-  //   navigate("/employee/edit/" +id);
-  // };
 
   const Removefunction = (id) => {
     if (window.confirm("Do you want to remove?")) {
@@ -87,27 +76,26 @@ const InternListing = () => {
                     <td>{item.startofdate}</td>
                     <td>{item.endofdate}</td>
                     <td>
-                      <a
-                        href={"/internlist/internedit/"+item.id}
+                      <Link
+                        to={"/internlist/internedit/"+item.id}
                         className="btn btn-success"
                       >
                         Edit
-                      </a>
-                      <a
-                        // href="remove"
+                      </Link>
+                      <Link
                         onClick={() => {
                           Removefunction(item.id);
                         }}
                         className="btn btn-danger"
                       >
                         Remove
-                      </a>
-                      <a
-                         href={"/internlist/interninfo/"+item.id}
+                      </Link>
+                      <Link
+                         to={"/internlist/interninfo/"+item.id}
                         className="btn btn-primary"
                       >
                         Detail
-                      </a>
+                      </Link>
                     </td>
                   </tr>
                 ))}
