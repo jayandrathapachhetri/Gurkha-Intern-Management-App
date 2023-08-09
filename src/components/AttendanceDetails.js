@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function AttadanceDetails({ id, name, present_day, absent_day }) {
+function AttendanceDetails({ id, name, present_day, absent_day }) {
   const [pcount, setPCount] = useState(0);
   const [acount, setACount] = useState(0);
   const [isPresentButtonDisabled, setPresentButtonDisabled] = useState(false);
@@ -50,7 +50,7 @@ function AttadanceDetails({ id, name, present_day, absent_day }) {
         setPresentButtonDisabled(false);
         setAbsentButtonDisabled(false);
         setSaveButtonDisabled(true);
-        alert("attendance successfully.");
+        alert("Attendance Success");
       })
       .catch((err) => {
         console.log(err.message);
@@ -93,7 +93,7 @@ function AttadanceDetails({ id, name, present_day, absent_day }) {
   );
 }
 
-export default AttadanceDetails;
+export default AttendanceDetails;
 
 // import React, { useState, useEffect } from "react";
 

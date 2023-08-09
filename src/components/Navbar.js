@@ -45,8 +45,8 @@ function Navbar() {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link" activeClassName="active" to="/attadance">
-                        Attadance
+                      <NavLink className="nav-link" activeClassName="active" to="/attendance">
+                        Attendance
                       </NavLink>
                     </li>
                     <li className="nav-item mx-1">

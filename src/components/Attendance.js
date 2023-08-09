@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import AttadanceDetails from "./AttadanceDetails";
+import AttendanceDetails from "./AttendanceDetails";
 import Navbar from "./Navbar";
 
-function Attadance() {
+function Attendance() {
   const [interndetails, setInternDetails] = useState([]);
 
   useEffect(() => {
@@ -45,7 +45,7 @@ function Attadance() {
               <tbody>
                 {interndetails.map((intern) => (
                   <tr key={intern.id}>
-                    <AttadanceDetails
+                    <AttendanceDetails
                       id={intern.id}
                       name={intern.name}
                       present={intern.present_day}
@@ -62,4 +62,4 @@ function Attadance() {
   );
 }
 
-export default Attadance;
+export default Attendance;
