@@ -14,7 +14,7 @@ function LogIn() {
 
   useEffect(() => {
     if (localStorage.getItem('user-info')) {
-      navigate('/');
+      navigate('/home');
     }
   }, [navigate]);
 
