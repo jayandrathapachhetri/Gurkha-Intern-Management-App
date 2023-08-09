@@ -13,7 +13,7 @@ function InternDetails({ name, category, description, image }) {
     <div class="container">
       <div class="row">
         <div col-md-4>
-          <div className="card d-flex justify-content-center align-items-center shadow-none p-3 mb-3 bg-light rounded">
+          <div className="card d-flex justify-content-center align-items-center shadow p-3 mb-5 bg-body bg-light rounded">
             <img
               src={image}
               className="card-img-center image-fluid mt-2 rounded-circle"

@@ -2,8 +2,6 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Navbar from './Navbar';
 
-// import './App.css';
-
 const InternCreate = () => {
   const [id] = useState("");
   const [name, namechange] = useState("");

@@ -21,6 +21,18 @@
       "role": "dggd",
       "startofdate": "dggd",
       "endofdate": ""
+    },
+    {
+      "name": "jsj",
+      "email": "djjd",
+      "phone": "",
+      "college": "",
+      "address": "",
+      "role": "sjs",
+      "startofdate": "sj",
+      "endofdate": "",
+      "active": true,
+      "id": 3
     }
   ],
   "interndetails": [

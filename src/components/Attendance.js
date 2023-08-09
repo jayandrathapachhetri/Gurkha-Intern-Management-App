@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import AttendanceDetails from "./AttendanceDetails";
 import Navbar from "./Navbar";
+import Spinner from './Spinner';
 
 function Attendance() {
   const [interndetails, setInternDetails] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,8 +16,10 @@ function Attendance() {
         let data = await response.json();
         console.log(data);
         setInternDetails(data);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
+        setLoading(false); 
       }
     };
 
@@ -27,6 +31,9 @@ function Attendance() {
       {" "}
       <Navbar />
       <div className="container my-3">
+      {loading ? (
+          <Spinner />
+        ) : (
         <div className="card">
           <div className="card-title text-center mt-3">
             <h2>Intern Attendance</h2>
@@ -57,6 +64,7 @@ function Attendance() {
             </table>
           </div>
         </div>
+        )}
       </div>
     </>
   );
