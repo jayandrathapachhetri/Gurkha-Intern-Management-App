@@ -19,8 +19,8 @@ function InternDetails({ name, category, description, image }) {
               className="card-img-center image-fluid mt-2 rounded-circle"
               alt={name}
               style={{
-                height: "200px",
-                width: "200px",
+                height: "150px",
+                width: "150px",
                 borderRadius: "50",
                 alignItems: "center",
               }}

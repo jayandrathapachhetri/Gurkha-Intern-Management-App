@@ -12,16 +12,15 @@
       "endofdate": "-"
     },
     {
+      "id": 2,
       "name": "shs",
       "email": "ddg",
-      "phone": "",
+      "phone": "9863467790",
       "college": "",
-      "address": "",
+      "address": "Maitidevi",
       "role": "dggd",
       "startofdate": "dggd",
-      "endofdate": "",
-      "active": true,
-      "id": 2
+      "endofdate": ""
     }
   ],
   "interndetails": [
@@ -71,7 +70,9 @@
       "name": "Ravi Lamichhane",
       "category": "Frontend",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/3.jpg"
+      "image": "Images/3.jpg",
+      "present_day": 1,
+      "absent_day": 0
     },
     {
       "id": 7,

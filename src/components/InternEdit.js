@@ -53,10 +53,10 @@ const InternEdit = () => {
       body: JSON.stringify(empdata),
     })
       .then((res) => {
-        alert("Update successfully.");
+        alert("Update successfully");
         navigate("/internlist");
       })
-      .catch((err) => {
+      .catch((err) => { 
         console.log(err.message);
       });
   };
