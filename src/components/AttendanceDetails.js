@@ -10,7 +10,7 @@ function AttendanceDetails({ id, name, present_day, absent_day }) {
   
 
   useEffect(() => {
-    fetch(`http://localhost:3000/interndetails/${id}`)
+    fetch(`http://localhost:3000/intern/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setPCount(isNaN(data.present_day) ? 0 : data.present_day);
@@ -37,7 +37,7 @@ function AttendanceDetails({ id, name, present_day, absent_day }) {
   const handleSave = (e) => {
     e.preventDefault();
 
-    fetch(`http://localhost:3000/interndetails/${id}`, {
+    fetch(`http://localhost:3000/intern/${id}`, {
       method: "PATCH", // Use PATCH instead of PUT to update only specific fields
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ present_day: pcount, absent_day : acount }),
@@ -50,7 +50,7 @@ function AttendanceDetails({ id, name, present_day, absent_day }) {
         setPresentButtonDisabled(false);
         setAbsentButtonDisabled(false);
         setSaveButtonDisabled(true);
-        alert("Attendance Success");
+        alert("Attendance Successful");
       })
       .catch((err) => {
         console.log(err.message);

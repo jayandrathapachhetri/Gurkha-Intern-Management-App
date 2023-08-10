@@ -9,30 +9,9 @@
       "address": "Maitidevi",
       "role": "Frontend",
       "startofdate": "2080/02/01",
-      "endofdate": "-"
-    },
-    {
-      "id": 2,
-      "name": "shs",
-      "email": "ddg",
-      "phone": "9863467790",
-      "college": "",
-      "address": "Maitidevi",
-      "role": "dggd",
-      "startofdate": "dggd",
-      "endofdate": ""
-    },
-    {
-      "name": "jsj",
-      "email": "djjd",
-      "phone": "",
-      "college": "",
-      "address": "",
-      "role": "sjs",
-      "startofdate": "sj",
-      "endofdate": "",
-      "active": true,
-      "id": 3
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
     }
   ],
   "interndetails": [
@@ -314,6 +293,11 @@
       "email": "khadka@gmail.com",
       "password": "hayQ1123",
       "id": 22
+    },
+    {
+      "email": "ravi@gmail.com",
+      "password": "Ravi!Rss22",
+      "id": 23
     }
   ]
 }

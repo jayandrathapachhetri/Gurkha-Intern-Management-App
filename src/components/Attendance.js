@@ -11,7 +11,7 @@ function Attendance() {
     const fetchData = async () => {
       try {
         console.log("Fetching data...");
-        let url = "http://localhost:3000/interndetails";
+        let url = "http://localhost:3000/intern";
         let response = await fetch(url);
         let data = await response.json();
         console.log(data);
