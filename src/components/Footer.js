@@ -1,23 +1,20 @@
 import React from 'react'
 // import Navbar from './Navbar'
 
-// let footerStyle = {
-//     position: "absolute",
-//     bottom: "0",
-//     width: "100%",
-//     // backgroundColor: "#343a40",
-//     // color: "white",
-//     padding: "5px",
-//     textAlign: "center",
-//     // marginTop: "20px",
-//   };
+let footerStyle = {
+  
+    position: "fixed",
+    left: "0",
+    bottom: "0",
+    width: "100%"
+  }
 
 function Footer() {
   return (
    
    <>
-  {/* <div className='container '>
-    <footer className="container">
+  <div className='container '>
+    <footer className="container" style={{footerStyle}}>
       <hr className='featurette-divider' />
       <p className="text-end"><a className="style-none text-decoration-none text-dark" href="#"> <i className="bi bi-arrow-up-circle-fill h3"></i></a></p>
       <div className='row d-flex justify-content-between align-items-center'>
@@ -30,7 +27,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  </div> */}
+  </div>
 </>
 
     

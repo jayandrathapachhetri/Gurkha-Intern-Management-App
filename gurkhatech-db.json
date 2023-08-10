@@ -12,6 +12,249 @@
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
+    },
+    {
+      "name": "Niroj Lama",
+      "email": "niroj@gmail.com",
+      "phone": "9865231475",
+      "college": "ACHS",
+      "address": "Gausala",
+      "role": "Flutter",
+      "startofdate": "2080-02-01",
+      "endofdate": "-",
+      "active": true,
+      "id": 2,
+      "present_day": 2,
+      "absent_day": 1
+    },
+    {
+      "name": "Asmit Adhikari",
+      "email": "asmit@gmail.com",
+      "phone": "9863254178",
+      "college": "ACHS",
+      "address": "Lalitpur",
+      "role": "Block Chain",
+      "startofdate": "2080-03-15",
+      "endofdate": "-",
+      "active": true,
+      "id": 3
+    },
+    {
+      "name": "Sushil Pathak",
+      "email": "sushil@gmail.com",
+      "phone": "9865741234",
+      "college": "ACHS",
+      "address": "Old Baneshwor",
+      "role": "Backend",
+      "startofdate": "2080-01-01",
+      "endofdate": "-",
+      "active": true,
+      "id": 4
+    },
+    {
+      "name": "Saroj Adhikari",
+      "email": "saroj@gmail.com",
+      "phone": "9865741247",
+      "college": "ACHS",
+      "address": "Kalanki",
+      "role": "Flutter",
+      "startofdate": "2080-02-15",
+      "endofdate": "-",
+      "active": true,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Ravi Lamichhane",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 7,
+      "name": "Binod Rawat",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 8,
+      "name": "Ujjwal Shresthe",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 9,
+      "name": "Shree Krishna Lamichhane",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 10,
+      "name": "Sita Thapa",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 11,
+      "name": "Krishor Neupane",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 12,
+      "name": "Shree Bhadra Bhattarai",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 13,
+      "name": "Mohon Rawat",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 14,
+      "name": "Samundra Adhikari",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 15,
+      "name": "Maharzon Samrat",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 16,
+      "name": "Narendra Magar",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 17,
+      "name": "Kumosh Poudel",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 18,
+      "name": "Abhishek Manander",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
+    },
+    {
+      "id": 19,
+      "name": "Hemraj Budhathoki",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-"
+    },
+    {
+      "id": 20,
+      "name": "Sanil Khadka",
+      "email": "jayandrathapa5518@gmail.com",
+      "phone": "9863467730",
+      "college": "ACHS",
+      "address": "Maitidevi",
+      "role": "Frontend",
+      "startofdate": "2080/02/01",
+      "endofdate": "-",
+      "present_day": 1,
+      "absent_day": 0
     }
   ],
   "interndetails": [
@@ -19,28 +262,22 @@
       "id": 1,
       "name": "Jayandra Thapa",
       "category": "Frontend",
-      "description": "Hello, It’s me Jayandra Thapa. I'm a passionate frontend developer with a strong foundation in HTML, CSS, and JavaScript. I have completed several personal projects where I enhanced my skills in creating responsive and user-friendly websites. I'm excited about this internship opportunity because it will allow me to apply my knowledge in a professional setting and further develop my skills under the guidance of experienced mentors.",
-      "image": "Images/Jayandra.jpg",
-      "present_day": 2,
-      "absent_day": 3
+      "description": "As a frontend developer, Assigned to the Intern Management Application project Which is guided by mentor Krishna Guragai.",
+      "image": "Images/Jayandra.jpg"
     },
     {
       "id": 2,
       "name": "Niroj Lama",
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/niroj.jpg",
-      "present_day": 1,
-      "absent_day": 0
+      "image": "Images/niroj.jpg"
     },
     {
       "id": 3,
       "name": "Asmit Adhikari",
       "category": "Blockchain",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/Asmit.jpg",
-      "present_day": 2,
-      "absent_day": 0
+      "image": "Images/Asmit.jpg"
     },
     {
       "id": 4,
@@ -61,9 +298,7 @@
       "name": "Ravi Lamichhane",
       "category": "Frontend",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/3.jpg",
-      "present_day": 1,
-      "absent_day": 0
+      "image": "Images/3.jpg"
     },
     {
       "id": 7,
@@ -91,9 +326,7 @@
       "name": "Sita Thapa",
       "category": "Blockchain",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/5.jpg",
-      "present_day": 1,
-      "absent_day": 0
+      "image": "Images/5.jpg"
     },
     {
       "id": 11,
@@ -128,9 +361,7 @@
       "name": "Maharzon Samrat",
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/Samrat.jpg",
-      "present_day": 0,
-      "absent_day": 1
+      "image": "Images/Samrat.jpg"
     },
     {
       "id": 16,
@@ -151,18 +382,21 @@
       "name": "Abhishek Manander",
       "category": "FullStack",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/Abhishek.jpg",
-      "present_day": 1,
-      "absent_day": 1
+      "image": "Images/Abhishek.jpg"
     },
     {
       "id": 19,
       "name": "Hemraj Budhathoki",
       "category": "QA",
-      "image": "Images/Hemraj.jpg",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "present_day": 2,
-      "absent_day": 0
+      "image": "Images/Hemraj.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Sanil Khadka",
+      "category": "Frontend",
+      "image": "Images/2.jpg",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…"
     }
   ],
   "register": [
