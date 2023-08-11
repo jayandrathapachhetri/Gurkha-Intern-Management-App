@@ -42,6 +42,7 @@ function Attendance() {
                 </h2>
               </div>
               <div className="card-body">
+              <div className="table-responsive">
                 <table className="table table-bordered table-striped">
                   <thead className="table-dark">
                     <tr>
@@ -67,6 +68,7 @@ function Attendance() {
                 </table>
               </div>
             </div>
+          </div>
           </div>
         )}
       </div>
