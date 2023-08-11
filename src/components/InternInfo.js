@@ -25,8 +25,9 @@ const InternInfo = () => {
     <><Navbar/>
     <div className="container my-3 text-start">
       <div className="card">
+      <div className="table-responsive">
         <div className="card-title text-center mt-3">
-          <h2>Intern Information</h2>
+          <h2 className="text-center">Intern Information</h2>
         </div>
         <div className="card-body">
           <table className="table table-bordered ">
@@ -75,11 +76,12 @@ const InternInfo = () => {
               </tr>
             </tbody>
           </table>
-          <Link className="btn btn-danger" to="/internlist">
+          <Link className="btn btn-danger d-flex-md justify-content-around" to="/internlist">
             Back to Listing
           </Link>
         </div>
       </div>
+    </div>
     </div>
     </>
   );

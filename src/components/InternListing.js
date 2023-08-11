@@ -39,9 +39,10 @@ const InternListing = () => {
     <div className="container my-3">
       <div className="card">
         <div className="card-title mt-3">
-          <h2>Intern Lists</h2>
+          <h2 className="text-center">Intern Lists</h2>
         </div>
         <div className="card-body">
+        <div className="table-responsive">
           <div className="divbtn mb-1">
             <Link to="/internlist/interncreate" className="btn btn-success">
               Add New (+)
@@ -75,7 +76,7 @@ const InternListing = () => {
                     <td>{item.role}</td>
                     <td>{item.startofdate}</td>
                     <td>{item.endofdate}</td>
-                    <td>
+                    <td d-flex justify-content-around>
                       <Link
                         to={"/internlist/internedit/"+item.id}
                         className="btn btn-success"
@@ -103,6 +104,7 @@ const InternListing = () => {
           </table>
         </div>
       </div>
+    </div>
     </div>
     </>
   );

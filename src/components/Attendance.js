@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AttendanceDetails from "./AttendanceDetails";
 import Navbar from "./Navbar";
-import Spinner from './Spinner';
+import Spinner from "./Spinner";
 
 function Attendance() {
   const [interndetails, setInternDetails] = useState([]);
@@ -19,7 +19,7 @@ function Attendance() {
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
-        setLoading(false); 
+        setLoading(false);
       }
     };
 
@@ -31,39 +31,43 @@ function Attendance() {
       {" "}
       <Navbar />
       <div className="container my-3">
-      {loading ? (
+        {loading ? (
           <Spinner />
         ) : (
-        <div className="card">
-          <div className="card-title text-center mt-3">
-            <h2>Intern Attendance</h2>
+          <div className="card">
+            <div className="table-responsive">
+              <div className="card-title text-center mt-3">
+                <h2 className="d-flex-md justify-content-around">
+                  Intern Attendance
+                </h2>
+              </div>
+              <div className="card-body">
+                <table className="table table-bordered table-striped">
+                  <thead className="table-dark">
+                    <tr>
+                      <th scope="col">Id</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Present Day</th>
+                      <th scope="col">Absent Day</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {interndetails.map((intern) => (
+                      <tr key={intern.id}>
+                        <AttendanceDetails
+                          id={intern.id}
+                          name={intern.name}
+                          present={intern.present_day}
+                          absent={intern.absent_day}
+                        />
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
-          <div className="card-body">
-            <table className="table table-bordered table-striped">
-              <thead className="table-dark">
-                <tr>
-                  <th scope="col">Id</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Present Day</th>
-                  <th scope="col">Absent Day</th>
-                  <th scope="col">Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                {interndetails.map((intern) => (
-                  <tr key={intern.id}>
-                    <AttendanceDetails
-                      id={intern.id}
-                      name={intern.name}
-                      present={intern.present_day}
-                      absent={intern.absent_day}
-                    />
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
         )}
       </div>
     </>

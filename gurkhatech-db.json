@@ -10,7 +10,7 @@
       "role": "Frontend",
       "startofdate": "2080/02/01",
       "endofdate": "-",
-      "present_day": 1,
+      "present_day": 2,
       "absent_day": 0
     },
     {
@@ -24,7 +24,7 @@
       "endofdate": "-",
       "active": true,
       "id": 2,
-      "present_day": 2,
+      "present_day": 4,
       "absent_day": 1
     },
     {
@@ -37,7 +37,9 @@
       "startofdate": "2080-03-15",
       "endofdate": "-",
       "active": true,
-      "id": 3
+      "id": 3,
+      "present_day": 1,
+      "absent_day": 0
     },
     {
       "name": "Sushil Pathak",
@@ -49,7 +51,9 @@
       "startofdate": "2080-01-01",
       "endofdate": "-",
       "active": true,
-      "id": 4
+      "id": 4,
+      "present_day": 1,
+      "absent_day": 0
     },
     {
       "name": "Saroj Adhikari",
@@ -100,7 +104,7 @@
       "startofdate": "2080/02/01",
       "endofdate": "-",
       "present_day": 1,
-      "absent_day": 0
+      "absent_day": 1
     },
     {
       "id": 9,
@@ -291,14 +295,14 @@
       "name": "Saroj Adhikari",
       "category": "Flutter",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/2.jpg"
+      "image": "Images/saroj.jpg"
     },
     {
       "id": 6,
       "name": "Ravi Lamichhane",
       "category": "Frontend",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
-      "image": "Images/3.jpg"
+      "image": "Images/ravi.jpg"
     },
     {
       "id": 7,
@@ -532,6 +536,11 @@
       "email": "ravi@gmail.com",
       "password": "Ravi!Rss22",
       "id": 23
+    },
+    {
+      "email": "jayandrathapa@gmail.com",
+      "password": "Jay@123",
+      "id": 24
     }
   ]
 }

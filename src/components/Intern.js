@@ -43,7 +43,8 @@ function Intern() {
   return (
     <>
     <Navbar/>
-        <div className=" container d-flex flex-wrap bg-secondary rounded my-3">
+    <div className="container my-3">
+        <div className="container d-flex flex-wrap justify-content-around bg-secondary rounded my-3">
           <button className="btn btn-sm btn-primary mx-3 my-1" key="frontend" onClick={() => filterItem('Frontend')}>Frontend</button>
           <button className="btn btn-sm btn-primary mx-3 my-1" key="backend" onClick={() => filterItem('Backend')}>Backend</button>
           <button className="btn btn-sm btn-primary mx-3 my-1" key="fullStack" onClick={() => filterItem('FullStack')}>FullStack</button>
@@ -54,25 +55,22 @@ function Intern() {
           <button className="btn btn-sm btn-primary mx-3 my-1 ms-auto" key="all" onClick={() => filterItem('All')}>All</button>
         </div>
       
-      <div className="container my-3">
-        {loading ? (
-          <Spinner />
-        ) : (
-          <div className="row g-4">
-            {interndetails.map((element) => {
-              return (
-                <div className="col-md-4" key={element.id}>
-                  <InternDetails
-                    name={element.name}
-                    category={element.category}
-                    description={element.description}
-                    image={element.image}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        )}
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          {loading ? (
+            <Spinner />
+          ) : (
+            interndetails.map((element) => (
+              <div className="col" key={element.id}>
+                <InternDetails
+                  name={element.name}
+                  category={element.category}
+                  description={element.description}
+                  image={element.image}
+                />
+              </div>
+            ))
+          )}
+        </div>
       </div>
     </>
   );
