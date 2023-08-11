@@ -77,8 +77,8 @@ function LogIn() {
     <>
       <Navbar />
       <div className="d-flex justify-content-center align-items-center vh-100 signupPage">
-        <div className="p-3 rounded w-25 border signupForm bg-info">
-          <h2>
+        <div className="p-3 rounded w-md-50  border signupForm bg-info">
+          <h2 className='text-center'>
             <strong>Gurkha Intern</strong>
           </h2>
           <form className="text-start" onSubmit={login}>

@@ -28,7 +28,7 @@ function Navbar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {localStorage.getItem("user-info") ? (
                 <>
-                  <li className="nav-item">
+                  <li className="nav-item mx-1">
                     <NavLink className="nav-link" activeClassName="active" exact to="/">
                       Home
                     </NavLink>
@@ -38,7 +38,7 @@ function Navbar() {
                       About
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-1">
                     <NavLink className="nav-link" activeClassName="active" to="/interndetails">
                       Intern Details
                     </NavLink>
@@ -48,7 +48,7 @@ function Navbar() {
                       Attendance
                     </NavLink>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item mx-1">
                     <NavLink className="nav-link" activeClassName="active" to="/internlist">
                       Intern Dashboard
                     </NavLink>
