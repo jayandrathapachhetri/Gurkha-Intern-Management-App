@@ -10,8 +10,8 @@
       "role": "Frontend",
       "startofdate": "2080/02/01",
       "endofdate": "-",
-      "present_day": 3,
-      "absent_day": 0
+      "present_day": 4,
+      "absent_day": 1
     },
     {
       "name": "Niroj Lama",
@@ -259,6 +259,17 @@
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
+    },
+    {
+      "id": 21,
+      "name": "bbbb",
+      "email": "dd",
+      "phone": "aa",
+      "college": "",
+      "address": "update",
+      "role": "dhhdhh",
+      "startofdate": "bd",
+      "endofdate": ""
     }
   ],
   "interndetails": [
@@ -581,6 +592,31 @@
       "email": "jay@gmail.com",
       "password": "Jay@112",
       "id": 32
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "Jay@112",
+      "id": 33
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "Jay@112",
+      "id": 34
+    },
+    {
+      "email": "Jay@gmail.com",
+      "password": "Jay@123",
+      "id": 35
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "jay@12122A",
+      "id": 36
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "Jay@123",
+      "id": 37
     }
   ]
 }

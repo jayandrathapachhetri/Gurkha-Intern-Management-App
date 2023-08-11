@@ -76,8 +76,17 @@ function LogIn() {
   return (
     <>
       <Navbar />
-      <div className="d-flex justify-content-center align-items-center vh-100 signupPage">
-        <div className="p-3 rounded w-md-50  border signupForm bg-info">
+      <div className=" container-fluid d-flex justify-content-center align-items-center vh-100 bg-image cover" 
+      style={{
+          backgroundImage: `url("Images/cover.jpg")`,
+          margin:"0px",
+          padding:"0px",
+          height: '100vh',
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: 'cover',
+        }}>
+        <div className="p-3 rounded w-md-50  border bg-info">
           <h2 className='text-center'>
             <strong>Gurkha Intern</strong>
           </h2>
@@ -118,9 +127,10 @@ function LogIn() {
                 }`}
               />
               {!validPassword && (
-                <div className="invalid-feedback">
-                  Password should be at least 6 characters long and contain
-                  at least one uppercase letter, one lowercase letter, and one digit.
+                <div className="invalid-feedback d-flex d-wrap">
+                  {/* Password should be at least 6 characters long and contain
+                  at least one uppercase letter, one lowercase letter, and one digit. */}
+                  Enter a valid password.
                 </div>
               )}
             </div>
@@ -134,6 +144,8 @@ function LogIn() {
               Login
             </button>
           </form>
+          {!validEmail && <div style={{ height: '1rem' }} />}
+          {!validPassword && <div style={{ height: '1rem' }} />}
         </div>
       </div>
     </>
@@ -141,3 +153,5 @@ function LogIn() {
 }
 
 export default LogIn;
+
+
