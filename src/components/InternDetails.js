@@ -8,7 +8,7 @@ function InternDetails({ name, category, description, image }) {
   };
 
   return (
-    <div className="card d-flex justify-content-center align-items-center shadow p-3 bg-light rounded">
+    <div className="card d-flex justify-content-center align-items-center shadow p-3 bg-light rounded ">
       <img
         src={image}
         className="card-img-center image-fluid mt-2 rounded-circle"
