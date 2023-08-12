@@ -23,7 +23,10 @@ const InternInfo = () => {
 
   return (
     <><Navbar/>
-    <div className="container my-3 text-start">
+    <div className="container mt-5">
+      <div className="row">
+        <div className="offset-md-3 col-md-6">
+    <div className="container text-start mt-4">
       <div className="card">
       <div className="table-responsive">
         <div className="card-title text-center mt-3">
@@ -81,6 +84,9 @@ const InternInfo = () => {
           </Link>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
     </div>
     </>

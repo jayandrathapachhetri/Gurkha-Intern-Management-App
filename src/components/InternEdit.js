@@ -62,11 +62,11 @@ const InternEdit = () => {
   };
   return (
     <><Navbar/>
-    <div >
+    <div className="container mt-5">
       <div className="row">
-        <div className="offset-lg-3 col-lg-6">
-          <form className="container" onSubmit={handlesubmit}>
-            <div className="card my-3" style={{ textAlign: "left" }}>
+        <div className="offset-md-3 col-md-6">
+          <form className="container mt-4" onSubmit={handlesubmit}>
+            <div className="card" style={{ textAlign: "left" }}>
               <div className="card-title mt-3">
                 <h2 className="text-center ">Intern Data Update</h2>
               </div>

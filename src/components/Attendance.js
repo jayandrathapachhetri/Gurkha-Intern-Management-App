@@ -30,6 +30,9 @@ function Attendance() {
     <>
       {" "}
       <Navbar />
+      <div className="container mt-5">
+      <div className="row">
+        <div className="offset-md-2  col-md-8 offset-lg-0 col-lg-12">
       <div className="container my-3">
         {loading ? (
           <Spinner />
@@ -71,6 +74,9 @@ function Attendance() {
           </div>
           </div>
         )}
+      </div>
+      </div>
+      </div>
       </div>
     </>
   );

@@ -48,13 +48,13 @@ const InternCreate = () => {
 
   return (
     <> <Navbar/>
-    <div >
+    <div className="container mt-5" >
       <div className="row">
-        <div className="offset-lg-3 col-lg-6">
-          <form className="container my-3" onSubmit={handlesubmit}>
+        <div className="offset-md-3 col-md-6">
+          <form className="container my-4" onSubmit={handlesubmit}>
             <div className="card" style={{ textAlign: "left" }}>
-              <div className="card-title">
-                <h2 className="text-center mt-3">Intern Data Create</h2>
+              <div className="card-title mt-3">
+                <h2 className="text-center">Intern Data Create</h2>
               </div>
               <div className="card-body">
                 <div className="row">

@@ -36,7 +36,10 @@ const InternListing = () => {
   }, []);
   return (
     <> <Navbar/>
-    <div className="container my-3">
+    <div className="container mt-5">
+      <div className="row">
+        <div className="col">
+    <div className="container mt-4">
       <div className="card">
         <div className="card-title mt-3">
           <h2 className="text-center">Intern Lists</h2>
@@ -104,6 +107,9 @@ const InternListing = () => {
           </table>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
     </div>
     </>
