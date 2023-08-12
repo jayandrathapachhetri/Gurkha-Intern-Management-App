@@ -43,7 +43,9 @@ function Intern() {
   return (
     <>
     <Navbar/>
-    <div className="container my-3">
+    <div className="container mt-5">
+      <div className="row">
+      <div className="col">
     {loading ? (
             <Spinner />
           ) : (
@@ -58,7 +60,8 @@ function Intern() {
           <button className="btn btn-sm btn-primary mx-3 my-1" key="blockchain" onClick={() => filterItem('Blockchain')}>Blockchain</button>
           <button className="btn btn-sm btn-primary mx-3 my-1 ms-auto" key="all" onClick={() => filterItem('All')}>All</button>
         </div>
-      
+            
+        <div className='container'>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
               {interndetails.map((element) => (
                 <div className="col" key={element.id}>
@@ -71,8 +74,11 @@ function Intern() {
                 </div>
               ))}
             </div>
+            </div>
           </>
         )}
+      </div>
+      </div>
       </div>
     </>
   );

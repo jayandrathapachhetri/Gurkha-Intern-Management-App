@@ -38,7 +38,7 @@ const InternListing = () => {
     <> <Navbar/>
     <div className="container mt-5">
       <div className="row">
-        <div className="col">
+        <div className="offset-lg-1 col-lg-10">
     <div className="container mt-4">
       <div className="card">
         <div className="card-title mt-3">
@@ -69,7 +69,7 @@ const InternListing = () => {
             <tbody>
               {empdata &&
                 empdata.map((item) => (
-                  <tr key={item.id}>
+                  <tr key={item.id} className="align-middle">
                     <td>{item.id}</td>
                     <td>{item.name}</td>
                     <td>{item.email}</td>
