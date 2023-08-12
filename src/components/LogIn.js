@@ -86,7 +86,7 @@ function LogIn() {
           backgroundPosition: "center",
           backgroundSize: 'cover',
         }}>
-        <div className="p-3 rounded w-lg-50  border bg-info">
+        <div className="p-3 rounded  w-lg-75  border bg-info offset-lg-5">
           <h2 className='text-center'>
             <strong>Gurkha Intern</strong>
           </h2>

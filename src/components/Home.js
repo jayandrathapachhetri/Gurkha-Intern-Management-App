@@ -9,7 +9,7 @@ function Home() {
       <Navbar />
       <div className="container mt-5">
         <div className="row col">
-          <section className="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start ">
+          <section className="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-sm-start">
             <div className="container mt-4">
               <div className="d-sm-flex align-items-center justify-content-between">
                 <div className="mb-4">
@@ -21,7 +21,7 @@ function Home() {
                     management.
                   </p>
                   <Link
-                    className="btn btn-primary btn-lg"
+                    className="btn btn-primary btn-lg text-center"
                     to="/about"
                     role="button"
                   >
@@ -35,19 +35,19 @@ function Home() {
                 />
               </div>
             </div>
-            <h2 className="text-center my-5">
+            <h2 className="text-center mt-md-3 my-lg-5 d-none d-md-block">
               Become a part of
               <span className="text-warning"> Gurkha Techology </span>
             </h2>
           </section>
 
-          <section className="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+          <section className="bg-light text-dark  text-center text-sm-start">
             <div className="container d-none d-sm-block">
               <Carousel fade>
                 <Carousel.Item>
                   <img
                     src="Images/home1.jpg"
-                    className="d-block w-100"
+                    className="d-block w-100 image-fluid rounded"
                     alt="..."
                   />
                   <Carousel.Caption>
@@ -62,7 +62,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     src="Images/home2.jpg"
-                    className="d-block w-100"
+                    className="d-block w-100 image-fluid rounded"
                     alt="..."
                   />
                   <Carousel.Caption>
@@ -77,7 +77,7 @@ function Home() {
                 <Carousel.Item>
                   <img
                     src="Images/home3.jpg"
-                    className="d-block w-100"
+                    className="d-block w-100 image-fluid rounded"
                     alt="..."
                   />
                   <Carousel.Caption>
