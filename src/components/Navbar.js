@@ -15,7 +15,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark nav-pills sticky-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark nav-pills fixed-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img src="/favicon-32x32.png" alt="Logo" width="35" height="30" className="d-inline-block align-text-top mx-2" />
