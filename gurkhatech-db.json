@@ -38,7 +38,7 @@
       "endofdate": "-",
       "active": true,
       "id": 3,
-      "present_day": 1,
+      "present_day": 3,
       "absent_day": 0
     },
     {
@@ -52,8 +52,8 @@
       "endofdate": "-",
       "active": true,
       "id": 4,
-      "present_day": 1,
-      "absent_day": 0
+      "present_day": 3,
+      "absent_day": 1
     },
     {
       "name": "Saroj Adhikari",
@@ -65,7 +65,9 @@
       "startofdate": "2080-02-15",
       "endofdate": "-",
       "active": true,
-      "id": 5
+      "id": 5,
+      "present_day": 2,
+      "absent_day": 1
     },
     {
       "id": 6,
@@ -261,15 +263,15 @@
       "absent_day": 0
     },
     {
-      "id": 21,
-      "name": "bbbb",
-      "email": "dd",
-      "phone": "aa",
+      "id": 24,
+      "name": "hee",
+      "email": "dbd",
+      "phone": "",
       "college": "",
-      "address": "update",
-      "role": "dhhdhh",
-      "startofdate": "bd",
-      "endofdate": ""
+      "address": "",
+      "role": "nehd",
+      "startofdate": "dnhd",
+      "endofdate": "dgdtd"
     }
   ],
   "interndetails": [
@@ -622,6 +624,21 @@
       "email": "jayandra@gmail.com",
       "password": "Jay@123",
       "id": 38
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "Jay@123",
+      "id": 39
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "Jay@123",
+      "id": 40
+    },
+    {
+      "email": "Jay@gmail.com",
+      "password": "Jay@123",
+      "id": 41
     }
   ]
 }
