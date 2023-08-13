@@ -118,43 +118,6 @@
 
 // export default InternListing;
 
-// import React, { useEffect, useState } from "react";
-// import { Link } from "react-router-dom";
-// import Navbar from './Navbar';
-
-// const InternListing = () => {
-//   const [empdata, setEmpdata] = useState([]);
-
-//   const fetchEmpdata = async () => {
-//     try {
-//       const response = await fetch("http://localhost:3000/intern");
-//       const data = await response.json();
-//       setEmpdata(data);
-//     } catch (error) {
-//       console.log(error.message);
-//     }
-//   };
-
-//   const removeItem = (id) => {
-//     if (window.confirm("Do you want to remove?")) {
-//       fetch("http://localhost:3000/intern/" + id, {
-//         method: "DELETE",
-//       })
-//         .then(() => {
-//           alert("Removed successfully.");
-//           fetchEmpdata(); // Refresh the data
-//         })
-//         .catch((err) => {
-//           console.log(err.message);
-//         });
-//     }
-//   };
-
-  // useEffect(() => {
-  //   fetchEmpdata();
-  // }, []);
-
-
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from './Navbar';
@@ -172,42 +135,18 @@ const InternListing = () => {
     }
   };
 
-  const removeItem = async (id) => {
+  const removeItem = (id) => {
     if (window.confirm("Do you want to remove?")) {
-      try {
-        await fetch("http://localhost:3000/intern/" + id, {
-          method: "DELETE",
+      fetch("http://localhost:3000/intern/" + id, {
+        method: "DELETE",
+      })
+        .then(() => {
+          alert("Removed successfully.");
+          fetchEmpdata(); // Refresh the data
+        })
+        .catch((err) => {
+          console.log(err.message);
         });
-
-        // Refresh the data after successful deletion
-        fetchEmpdata();
-      } catch (error) {
-        console.log(error.message);
-      }
-    }
-  };
-
-  const updateRemainingIDs = async () => {
-    // Create an array of updated items with sequential IDs
-    const updatedData = empdata.map((item, index) => ({
-      ...item,
-      id: index + 1,
-    }));
-
-    try {
-      // Send a PUT or PATCH request to update the IDs on the server
-      await fetch("http://localhost:3000/intern", {
-        method: "PUT", // Use the appropriate HTTP method
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(updatedData),
-      });
-
-      // Refresh the data after successful update
-      fetchEmpdata();
-    } catch (error) {
-      console.log(error.message);
     }
   };
 
@@ -215,13 +154,74 @@ const InternListing = () => {
     fetchEmpdata();
   }, []);
 
+
+// import React, { useEffect, useState } from "react";
+// import { Link } from "react-router-dom";
+// import Navbar from './Navbar';
+
+// const InternListing = () => {
+//   const [empdata, setEmpdata] = useState([]);
+
+//   const fetchEmpdata = async () => {
+//     try {
+//       const response = await fetch("http://localhost:3000/intern");
+//       const data = await response.json();
+//       setEmpdata(data);
+//     } catch (error) {
+//       console.log(error.message);
+//     }
+//   };
+
+//   const removeItem = async (id) => {
+//     if (window.confirm("Do you want to remove?")) {
+//       try {
+//         await fetch("http://localhost:3000/intern/" + id, {
+//           method: "DELETE",
+//         });
+
+//         // Refresh the data after successful deletion
+//         fetchEmpdata();
+//       } catch (error) {
+//         console.log(error.message);
+//       }
+//     }
+//   };
+
+//   const updateRemainingIDs = async () => {
+//     // Create an array of updated items with sequential IDs
+//     const updatedData = empdata.map((item, index) => ({
+//       ...item,
+//       id: index + 1,
+//     }));
+
+//     try {
+//       // Send a PUT or PATCH request to update the IDs on the server
+//       await fetch("http://localhost:3000/intern", {
+//         method: "PUT", // Use the appropriate HTTP method
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(updatedData),
+//       });
+
+//       // Refresh the data after successful update
+//       fetchEmpdata();
+//     } catch (error) {
+//       console.log(error.message);
+//     }
+//   };
+
+//   useEffect(() => {
+//     fetchEmpdata();
+//   }, []);
+
   return (
     <>
       <Navbar />
       <div className="container mt-5">
         <div className="row">
           <div className="offset-0 col">
-            <div className="container mt-4">
+            <div className="container mt-4">  
               <div className="card">
                 <div className="card-title mt-3">
                   <h2 className="text-center">Intern Lists</h2>

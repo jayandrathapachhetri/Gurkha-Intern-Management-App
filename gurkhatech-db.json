@@ -263,15 +263,16 @@
       "absent_day": 0
     },
     {
-      "id": 24,
-      "name": "hee",
-      "email": "dbd",
+      "name": "dhhd",
+      "email": "hdhhd",
       "phone": "",
       "college": "",
       "address": "",
-      "role": "nehd",
-      "startofdate": "dnhd",
-      "endofdate": "dgdtd"
+      "role": "aa",
+      "startofdate": "aa",
+      "endofdate": "",
+      "active": true,
+      "id": 26
     }
   ],
   "interndetails": [
