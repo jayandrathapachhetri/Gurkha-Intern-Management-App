@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import Navbar from './Navbar';
 import { useNavigate } from 'react-router-dom';
 
@@ -13,11 +13,11 @@ function Register() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    if (localStorage.getItem('user-info')) {
-      navigate('/');
-    }
-  }, [navigate]);
+  // useEffect(() => {
+  //   if (localStorage.getItem('user-info')) {
+  //     navigate('/');
+  //   }
+  // }, [navigate]);
 
   async function signUp(e) {
     e.preventDefault();
@@ -44,8 +44,8 @@ function Register() {
     });
     result = await result.json();
     console.log('result', result);
-    localStorage.setItem('user-info', JSON.stringify(result));
-    navigate('/');
+    // localStorage.setItem('user-info', JSON.stringify(result));
+    navigate('/login');
   }
 
   const validateEmail = (email) => {
@@ -77,8 +77,17 @@ function Register() {
   return (
     <>
       <Navbar />
-      <div className="d-flex justify-content-center align-items-center vh-100 signupPage">
-        <div className="p-3 rounded w-25 border signupForm bg-info">
+      <div className=" container-fluid d-flex justify-content-center align-items-center vh-100 bg-image cover" 
+      style={{
+          backgroundImage: `url("Images/cover.jpg")`,
+          margin:"0px",
+          padding:"0px",
+          height: '100vh',
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: 'cover',
+        }}>
+        <div className="p-3 rounded  w-lg-75  border bg-info offset-lg-5">
           <h2>
             <strong>Gurkha Intern</strong>
           </h2>
