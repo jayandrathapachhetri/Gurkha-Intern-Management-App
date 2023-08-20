@@ -20,7 +20,7 @@
       "college": "ACHS",
       "address": "Gausala",
       "role": "Flutter",
-      "startofdate": "2080-02-01",
+      "startofdate": "2080-01-01",
       "endofdate": "-",
       "active": true,
       "id": 2,
@@ -72,7 +72,7 @@
     {
       "id": 6,
       "name": "Ravi Lamichhane",
-      "email": "jayandrathapa5518@gmail.com",
+      "email": "ravi@gmail.com",
       "phone": "9863467730",
       "college": "ACHS",
       "address": "Maitidevi",
@@ -85,38 +85,38 @@
     {
       "id": 7,
       "name": "Binod Rawat",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "binod@gmail.com",
+      "phone": "9863412544",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "Gurku",
+      "role": "QA",
+      "startofdate": "2080/02/15",
       "endofdate": "-",
-      "present_day": 1,
+      "present_day": 2,
       "absent_day": 0
     },
     {
       "id": 8,
       "name": "Ujjwal Shresthe",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "ujjwal@gmail.com",
+      "phone": "9863465678",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
+      "address": "kalinki",
+      "role": "Blockchain",
       "startofdate": "2080/02/01",
       "endofdate": "-",
-      "present_day": 1,
+      "present_day": 2,
       "absent_day": 1
     },
     {
       "id": 9,
       "name": "Shree Krishna Lamichhane",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "shree@gmail.com",
+      "phone": "9863464578",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "Putalisadak",
+      "role": "WordPress",
+      "startofdate": "2080/03/01",
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
@@ -124,12 +124,12 @@
     {
       "id": 10,
       "name": "Sita Thapa",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "sita18@gmail.com",
+      "phone": "9863465847",
       "college": "ACHS",
       "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "role": "Blockchain",
+      "startofdate": "2080/02/11",
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 1
@@ -137,12 +137,12 @@
     {
       "id": 11,
       "name": "Krishor Neupane",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "krishor@gmail.com",
+      "phone": "9865847733",
       "college": "ACHS",
       "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "role": "QA",
+      "startofdate": "2080/02/21",
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
@@ -150,12 +150,12 @@
     {
       "id": 12,
       "name": "Shree Bhadra Bhattarai",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "bhadra@gmail.com",
+      "phone": "9863464715",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "kalainki",
+      "role": "Backend",
+      "startofdate": "2080/04/01",
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
@@ -163,11 +163,11 @@
     {
       "id": 13,
       "name": "Mohon Rawat",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "mohon@gmail.com",
+      "phone": "9863445150",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
+      "address": "Saddobato",
+      "role": "WordPress",
       "startofdate": "2080/02/01",
       "endofdate": "-",
       "present_day": 1,
@@ -176,12 +176,12 @@
     {
       "id": 14,
       "name": "Samundra Adhikari",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "samundra@gmail.com",
+      "phone": "9863467758",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "Mid Baneshwor",
+      "role": "QA",
+      "startofdate": "2080/04/11",
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
@@ -189,11 +189,11 @@
     {
       "id": 15,
       "name": "Maharzon Samrat",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "samrat@gmail.com",
+      "phone": "9863466894",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
+      "address": "kritipur",
+      "role": "Flutter",
       "startofdate": "2080/02/01",
       "endofdate": "-",
       "present_day": 1,
@@ -202,12 +202,12 @@
     {
       "id": 16,
       "name": "Narendra Magar",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "narendra@gmail.com",
+      "phone": "9863464758",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "Lalitpur",
+      "role": "WordPress",
+      "startofdate": "2080/01/01",
       "endofdate": "-",
       "present_day": 1,
       "absent_day": 0
@@ -215,11 +215,11 @@
     {
       "id": 17,
       "name": "Kumosh Poudel",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "kumosh@gmail.com",
+      "phone": "9863458475",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
+      "address": "Babarmal",
+      "role": "QA",
       "startofdate": "2080/02/01",
       "endofdate": "-",
       "present_day": 1,
@@ -228,52 +228,54 @@
     {
       "id": 18,
       "name": "Abhishek Manander",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "abhishek@gmail.com",
+      "phone": "9863465687",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "Gausala",
+      "role": "FullStack",
+      "startofdate": "2080/02/11",
       "endofdate": "-",
-      "present_day": 1,
-      "absent_day": 0
+      "present_day": 3,
+      "absent_day": 1
     },
     {
       "id": 19,
       "name": "Hemraj Budhathoki",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "email": "hemraj@gmail.com",
+      "phone": "9863464578",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "Mid Baneshwor",
+      "role": "QA",
+      "startofdate": "2080/03/21",
       "endofdate": "-",
-      "present_day": 1,
-      "absent_day": 0
+      "present_day": 6,
+      "absent_day": 5
     },
     {
       "id": 20,
-      "name": "Sanil Khadka",
-      "email": "jayandrathapa5518@gmail.com",
-      "phone": "9863467730",
+      "name": "Saneel Khadka",
+      "email": "saneel@gmail.com",
+      "phone": "9862458796",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Frontend",
-      "startofdate": "2080/02/01",
+      "address": "kritipur",
+      "role": "FullStack",
+      "startofdate": "2080/02/10",
       "endofdate": "-",
-      "present_day": 1,
-      "absent_day": 0
+      "present_day": 4,
+      "absent_day": 2
     },
     {
       "id": 21,
-      "name": "Kalpana Thapa",
-      "email": "kalpana@gmail.com",
-      "phone": "9865321478",
+      "name": "Suparth Ghimire",
+      "email": "suparth@gmail.com",
+      "phone": "9862458796",
       "college": "ACHS",
-      "address": "Maitidevi",
-      "role": "Backend",
-      "startofdate": "2080-02-01",
-      "endofdate": "-"
+      "address": "kritipur",
+      "role": "FullStack",
+      "startofdate": "2080/02/10",
+      "endofdate": "-",
+      "present_day": 5,
+      "absent_day": 4
     }
   ],
   "interndetails": [
@@ -281,7 +283,7 @@
       "id": 1,
       "name": "Jayandra Thapa",
       "category": "Frontend",
-      "description": "As a frontend developer, Assigned to the Intern Management Application project Which is guided by mentor Krishna Guragai.",
+      "description": "An intern under the guidance of mentor Krishna Guragai, has successfully completed several significant projects during the internship period. These include developing a responsive personal portfolio, a note-taking app, TextUtils App, and a tech website. Jayandra has recently been assigned to the Gurkha Intern Management Application project, where he collaborates effectively with the team to optimize intern administration and communication within the company. His dedication and skills have contributed significantly to the successful execution of these projects.",
       "image": "Images/Jayandra.jpg"
     },
     {
@@ -329,7 +331,7 @@
     {
       "id": 8,
       "name": "Ujjwal Shresthe",
-      "category": "Blockchain",
+      "category": "Blockchains",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…",
       "image": "Images/4.jpg"
     },
@@ -412,9 +414,16 @@
     },
     {
       "id": 20,
-      "name": "Sanil Khadka",
+      "name": "Saneel Khadka",
       "category": "Frontend",
-      "image": "Images/2.jpg",
+      "image": "Images/saneel.jpg",
+      "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…"
+    },
+    {
+      "id": 21,
+      "name": "Gopal Giri",
+      "category": "QA",
+      "image": "Images/gopal.jpg",
       "description": "It was a legitimate surprise when the conservative-dominated US Supreme Court ordered Alabama’s conservative-dominated state government last month to redraw its congressional map and include either a second majority-Black congressional district or something q…"
     }
   ],
@@ -432,6 +441,26 @@
       "name": "Jayandra Thapa",
       "email": "jay@test.com",
       "password": "jay@123"
+    },
+    {
+      "email": "jay@gmail.com",
+      "password": "Jay@123",
+      "id": 2
+    },
+    {
+      "email": "shree@gmail.com",
+      "password": "Shree@123",
+      "id": 3
+    },
+    {
+      "email": "shree@gmail.com",
+      "password": "Shree@123",
+      "id": 4
+    },
+    {
+      "email": "Shree@gmail.com",
+      "password": "Shree@123",
+      "id": 5
     }
   ]
 }
