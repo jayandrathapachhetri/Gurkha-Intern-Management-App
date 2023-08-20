@@ -14,6 +14,7 @@ import Register from './components/Register';
 import Protected from './components/Protected';
 import Attendance from './components/Attendance';
 import Footer from './components/Footer';
+import Error from './components/Error';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route exact path='/internlist/interncreate' element={<InternCreate />}></Route>
           <Route exact path='/internlist/interninfo/:empid' element={<InternInfo />}></Route>
           <Route exact path='/internlist/internedit/:empid' element={<InternEdit />}></Route>
+          <Route exact path='*' element={<Error />} > </Route>
         </Routes>
         <Footer/>
       </Router>
